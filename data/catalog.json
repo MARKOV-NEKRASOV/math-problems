@@ -1703,6 +1703,16 @@
   ],
   "papers": [
     {
+      "id": 28,
+      "title": "Monodromy and Frobenius Splitting Sieves for the Generalized Fermat Equation x^5+y^3=z^7: An Optimized Small-Prime Local Reduction",
+      "authors": "Zeraoulia Rafik",
+      "year": 2026,
+      "url": "https://doi.org/10.20944/preprints202609.1761.v1",
+      "identity_status": "candidate",
+      "reading_status": "METADATA_ONLY",
+      "extraction_status": "none"
+    },
+    {
       "id": 12,
       "title": "The Primitive Generalized Fermat Equation x^3+y^5=z^7: A computer-assisted proof",
       "authors": "Peter Chocian",
@@ -1711,6 +1721,16 @@
       "identity_status": "source_checked",
       "reading_status": "ABSTRACT_READ",
       "extraction_status": "proposed"
+    },
+    {
+      "id": 25,
+      "title": "The generalized Fermat equation $Ax^2 + By^r = Cz^p$ and applications",
+      "authors": "Pedro-José Cazorla García; Angelos Koutsianas; Lucas Villagra-Torcomian",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.02632",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "none"
     },
     {
       "id": 11,
@@ -1733,6 +1753,36 @@
       "extraction_status": "none"
     },
     {
+      "id": 27,
+      "title": "Effective Generalized Fermat equation of signature $(2p, 2q, r)$ with odd narrow class number",
+      "authors": "Satyabrat Sahoo",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2509.21083",
+      "identity_status": "source_checked",
+      "reading_status": "ABSTRACT_READ",
+      "extraction_status": "none"
+    },
+    {
+      "id": 23,
+      "title": "On the generalized Fermat equation $x^{13} + y^{13} = z^n$",
+      "authors": "Alex J. Best; Sander R. Dahmen; Nuno Freitas",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2510.12092",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "proposed"
+    },
+    {
+      "id": 24,
+      "title": "On the generalized Fermat equation of signature $(5,p,3)$",
+      "authors": "Ariel Pacetti; Lucas Villagra Torcomian",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2512.17845",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "proposed"
+    },
+    {
       "id": 10,
       "title": "Revisiting the equation $x^2+y^3=z^p$",
       "authors": "Nuno Freitas; Diana Mocanu; Ignasi Sanchez-Rodriguez",
@@ -1748,6 +1798,36 @@
       "authors": "Nuno Freitas; Michael Stoll",
       "year": 2025,
       "url": "https://arxiv.org/abs/2506.10667",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "proposed"
+    },
+    {
+      "id": 26,
+      "title": "The strong Fermat-Catalan Equation",
+      "authors": "Preda Mihailescu",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2509.18275",
+      "identity_status": "source_checked",
+      "reading_status": "ABSTRACT_READ",
+      "extraction_status": "none"
+    },
+    {
+      "id": 29,
+      "title": "Fermat-Catalan and Tijdeman-Zagier conjectures for products",
+      "authors": "Adam S. Sikora",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2410.21552",
+      "identity_status": "source_checked",
+      "reading_status": "ABSTRACT_READ",
+      "extraction_status": "none"
+    },
+    {
+      "id": 22,
+      "title": "Generalised Fermat equation: a survey of solved cases",
+      "authors": "Ashleigh Ratcliffe; Bogdan Grechuk",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2412.11933",
       "identity_status": "source_checked",
       "reading_status": "PARTIALLY_READ",
       "extraction_status": "none"
@@ -2002,6 +2082,46 @@
     {
       "problem_slug": "fermat-catalan-conjecture",
       "paper_id": 21,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 22,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 23,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 24,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 25,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 26,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 27,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 28,
+      "relevance": "Recent local-sieve preprint related to signature (3,5,7); metadata and proof need independent review"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 29,
       "relevance": "Source retrieved from arXiv"
     },
     {

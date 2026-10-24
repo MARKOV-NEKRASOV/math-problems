@@ -74,6 +74,16 @@ A [Darmon–Merel source audit](source-darmon-merel.md) confirms that Poonen–S
 
 These are partial results for selected families. The full Fermat–Catalan finiteness statement remains unproved.
 
+## Recent-paper check
+
+Four agents checked recent papers and preprints through 23 October 2026 (Argentina time). Their [direct-title survey](recent-direct.md), [(2,3,n) check](recent-23n.md), [varying-family survey](recent-families.md), and [independent provenance audit](recent-audit.md) distinguish theorems from conditional results and unreviewed claims. This was a targeted search, so absence from these lists does not establish that no other paper exists.
+
+- A September 2026 [preprint on `(3,5,7)`](recent-audit.md) claims a complete signed-integer exclusion. Its arXiv record remains v1, and a companion archive is public, but neither the archive nor the mathematical proof was independently checked here. Keep the result marked **unverified preprint claim**. Even if correct, it concerns one fixed signature.
+- The 2025 [solved-cases survey](recent-23n.md) still lists `(2,3,25)` as open; the later Freitas–Stoll paper remains conditional on five unresolved equations. A May 2026 `(2,r,p)` methods paper assumes `r≥5` and does not directly cover `(2,3,p)`.
+- A 2025 [coefficient-one `(13,13,n)` paper](recent-families.md) gives an unconditional exclusion under `13|z` for all `n≥2`, while its `n=7` classification assumes GRH. Other recent family results require coefficients, divisibility conditions, or a large-image conjecture.
+
+The paper library now has 29 records. Source-checked metadata, reading status, and proposed extracted claims are kept separate. No source in this targeted check establishes the full Fermat–Catalan conjecture.
+
 ## Collaborative next steps
 
 1. Check each ledger row against the original paper and add exact results, methods, and source URLs to the paper database.
