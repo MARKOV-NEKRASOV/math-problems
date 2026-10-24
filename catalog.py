@@ -142,6 +142,8 @@ def initialize():
             db.execute("INSERT OR IGNORE INTO papers (title,authors,year,url) VALUES (?,?,?,?)", (title, authors, year, url))
             paper_id = db.execute("SELECT id FROM papers WHERE url=?", (url,)).fetchone()[0]
             db.execute("INSERT OR IGNORE INTO problem_papers (problem_slug,paper_id,relevance) VALUES (?,?,?)", (slug, paper_id, relevance))
+        from papers import ensure_schema
+        ensure_schema(db)
 
 
 def require_problem(db, slug):
@@ -170,7 +172,12 @@ def export_catalog():
             problem["rating_count"] = rating["rating_count"] if rating else 0
             problem["ratings"] = rating_details.get(problem["slug"], [])
     with connect(PAPERS_DB) as db:
-        papers = [dict(row) for row in db.execute("SELECT id,title,authors,year,url FROM papers ORDER BY year DESC, title")]
+        papers = [dict(row) for row in db.execute("""
+            SELECT p.id,p.title,p.authors,p.year,p.url,
+                   e.identity_status,e.reading_status,e.extraction_status
+            FROM papers p JOIN paper_evidence e ON e.paper_id=p.id
+            ORDER BY p.year DESC,p.title
+        """)]
         links = [dict(row) for row in db.execute("SELECT problem_slug,paper_id,relevance FROM problem_papers ORDER BY problem_slug,paper_id")]
     CATALOG.write_text(json.dumps({"problems": problems, "papers": papers, "links": links}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Exported {len(problems)} problems and {len(papers)} papers to {CATALOG.relative_to(ROOT)}")
@@ -251,6 +258,7 @@ def main():
         with connect(PAPERS_DB) as db:
             db.execute("INSERT OR IGNORE INTO papers (title,authors,year,url,doi) VALUES (?,?,?,?,?)", (args.title, args.authors, args.year, args.url, args.doi))
             paper_id = db.execute("SELECT id FROM papers WHERE url=?", (args.url,)).fetchone()[0]
+            db.execute("INSERT OR IGNORE INTO paper_evidence (paper_id) VALUES (?)", (paper_id,))
             if args.problem:
                 db.execute("INSERT OR REPLACE INTO problem_papers (problem_slug,paper_id,relevance) VALUES (?,?,?)", (args.problem, paper_id, args.relevance))
         print(f"Paper #{paper_id} saved")

@@ -1703,60 +1703,144 @@
   ],
   "papers": [
     {
+      "id": 12,
+      "title": "The Primitive Generalized Fermat Equation x^3+y^5=z^7: A computer-assisted proof",
+      "authors": "Peter Chocian",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.26996",
+      "identity_status": "source_checked",
+      "reading_status": "ABSTRACT_READ",
+      "extraction_status": "none"
+    },
+    {
+      "id": 11,
+      "title": "Darmon's Program: A survey",
+      "authors": "Imin Chen; Angelos Koutsianas",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2507.15149",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "proposed"
+    },
+    {
+      "id": 10,
+      "title": "Revisiting the equation $x^2+y^3=z^p$",
+      "authors": "Nuno Freitas; Diana Mocanu; Ignasi Sanchez-Rodriguez",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2512.10781",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "none"
+    },
+    {
       "id": 7,
       "title": "Almost all orbits of the Collatz map attain almost bounded values",
       "authors": "Terence Tao",
       "year": 2022,
-      "url": "https://arxiv.org/abs/1909.03562"
+      "url": "https://arxiv.org/abs/1909.03562",
+      "identity_status": "source_checked",
+      "reading_status": "ABSTRACT_READ",
+      "extraction_status": "none"
+    },
+    {
+      "id": 9,
+      "title": "The generalized Fermat equation with exponents 2, 3, n",
+      "authors": "Nuno Freitas; Bartosz Naskrecki; Michael Stoll",
+      "year": 2017,
+      "url": "https://arxiv.org/abs/1703.05058",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "none"
     },
     {
       "id": 6,
       "title": "Small gaps between primes",
       "authors": "James Maynard",
       "year": 2015,
-      "url": "https://arxiv.org/abs/1311.4600"
+      "url": "https://arxiv.org/abs/1311.4600",
+      "identity_status": "source_checked",
+      "reading_status": "ABSTRACT_READ",
+      "extraction_status": "none"
     },
     {
       "id": 5,
       "title": "Bounded gaps between primes",
       "authors": "Yitang Zhang",
       "year": 2014,
-      "url": "https://doi.org/10.4007/annals.2014.179.3.7"
+      "url": "https://doi.org/10.4007/annals.2014.179.3.7",
+      "identity_status": "candidate",
+      "reading_status": "METADATA_ONLY",
+      "extraction_status": "none"
     },
     {
       "id": 8,
       "title": "The ternary Goldbach conjecture is true",
-      "authors": "Harald Andrés Helfgott",
+      "authors": "H. A. Helfgott",
       "year": 2013,
-      "url": "https://arxiv.org/abs/1312.7748"
+      "url": "https://arxiv.org/abs/1312.7748",
+      "identity_status": "source_checked",
+      "reading_status": "ABSTRACT_READ",
+      "extraction_status": "none"
     },
     {
       "id": 2,
-      "title": "Twists of X(7) and primitive solutions to x² + y³ = z⁷",
+      "title": "Twists of X(7) and primitive solutions to x^2+y^3=z^7",
       "authors": "Bjorn Poonen; Edward F. Schaefer; Michael Stoll",
       "year": 2007,
-      "url": "https://arxiv.org/abs/math/0508174"
+      "url": "https://arxiv.org/abs/math/0508174",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "proposed"
+    },
+    {
+      "id": 13,
+      "title": "On the abc conjecture, II",
+      "authors": "C. L. Stewart; Kunrui Yu",
+      "year": 2001,
+      "url": "https://doi.org/10.1215/S0012-7094-01-10815-6",
+      "identity_status": "candidate",
+      "reading_status": "METADATA_ONLY",
+      "extraction_status": "none"
     },
     {
       "id": 3,
       "title": "Modular elliptic curves and Fermat's Last Theorem",
       "authors": "Andrew Wiles",
       "year": 1995,
-      "url": "https://doi.org/10.2307/2118559"
+      "url": "https://doi.org/10.2307/2118559",
+      "identity_status": "candidate",
+      "reading_status": "METADATA_ONLY",
+      "extraction_status": "none"
     },
     {
       "id": 1,
       "title": "On the equations z^m = F(x,y) and Ax^p + By^q = Cz^r",
       "authors": "Henri Darmon; Andrew Granville",
       "year": 1995,
-      "url": "https://doi.org/10.1112/blms/27.6.513"
+      "url": "https://doi.org/10.1112/blms/27.6.513",
+      "identity_status": "candidate",
+      "reading_status": "METADATA_ONLY",
+      "extraction_status": "none"
     },
     {
       "id": 4,
       "title": "Ring-theoretic properties of certain Hecke algebras",
       "authors": "Richard Taylor; Andrew Wiles",
       "year": 1995,
-      "url": "https://doi.org/10.2307/2118560"
+      "url": "https://doi.org/10.2307/2118560",
+      "identity_status": "candidate",
+      "reading_status": "METADATA_ONLY",
+      "extraction_status": "none"
+    },
+    {
+      "id": 14,
+      "title": "On equations in S-units and the Thue-Mahler equation",
+      "authors": "J.-H. Evertse",
+      "year": 1984,
+      "url": "https://doi.org/10.1007/BF01388644",
+      "identity_status": "candidate",
+      "reading_status": "METADATA_ONLY",
+      "extraction_status": "none"
     }
   ],
   "links": [
@@ -1784,6 +1868,36 @@
       "problem_slug": "fermat-catalan-conjecture",
       "paper_id": 4,
       "relevance": "Companion paper for the modularity method."
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 9,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 10,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 11,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 12,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 13,
+      "relevance": "Unconditional abc bound tested in the height route"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 14,
+      "relevance": "S-unit finiteness used for fixed prime support"
     },
     {
       "problem_slug": "goldbach-conjecture",

@@ -81,7 +81,9 @@ function renderPapers() {
   paperList.replaceChildren();
   for (const paper of matches) {
     const card = element('article', 'paper-card');
-    const meta = element('div', 'paper-meta', `${paper.year ?? 'Year unknown'} · ${paper.authors}`);
+    const evidence = paper.identity_status === 'source_checked' ? 'Source checked' : 'Metadata to review';
+    const reading = paper.reading_status === 'METADATA_ONLY' ? 'Not yet read' : paper.reading_status.replaceAll('_', ' ').toLowerCase();
+    const meta = element('div', 'paper-meta', `${paper.year ?? 'Year unknown'} · ${paper.authors} · ${evidence} · ${reading}`);
     const title = element('h3');
     const link = element('a', '', paper.title + ' ↗');
     link.href = paper.url;
