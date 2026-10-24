@@ -1710,7 +1710,7 @@
       "url": "https://arxiv.org/abs/2609.26996",
       "identity_status": "source_checked",
       "reading_status": "ABSTRACT_READ",
-      "extraction_status": "none"
+      "extraction_status": "proposed"
     },
     {
       "id": 11,
@@ -1723,11 +1723,41 @@
       "extraction_status": "proposed"
     },
     {
+      "id": 21,
+      "title": "Effective Darmon's program for the generalised Fermat equation",
+      "authors": "Martin Azon",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2504.01967",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "none"
+    },
+    {
       "id": 10,
       "title": "Revisiting the equation $x^2+y^3=z^p$",
       "authors": "Nuno Freitas; Diana Mocanu; Ignasi Sanchez-Rodriguez",
       "year": 2025,
       "url": "https://arxiv.org/abs/2512.10781",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "none"
+    },
+    {
+      "id": 20,
+      "title": "The Generalized Fermat Equation $x^2 + y^3 = z^{25}$",
+      "authors": "Nuno Freitas; Michael Stoll",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2506.10667",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "none"
+    },
+    {
+      "id": 16,
+      "title": "A modular approach to Fermat equations of signature $(p,p,5)$ using Frey hyperelliptic curves",
+      "authors": "Imin Chen; Angelos Koutsianas",
+      "year": 2022,
+      "url": "https://arxiv.org/abs/2210.02316",
       "identity_status": "source_checked",
       "reading_status": "PARTIALLY_READ",
       "extraction_status": "none"
@@ -1740,6 +1770,16 @@
       "url": "https://arxiv.org/abs/1909.03562",
       "identity_status": "source_checked",
       "reading_status": "ABSTRACT_READ",
+      "extraction_status": "none"
+    },
+    {
+      "id": 15,
+      "title": "On Darmon's program for the generalized Fermat equation, I",
+      "authors": "Nicolas Billerey; Imin Chen; Luis Dieulefait; Nuno Freitas",
+      "year": 2022,
+      "url": "https://arxiv.org/abs/2205.15861",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
       "extraction_status": "none"
     },
     {
@@ -1773,6 +1813,16 @@
       "extraction_status": "none"
     },
     {
+      "id": 19,
+      "title": "The Generalised Fermat Equation x^2 + y^3 = z^15",
+      "authors": "Samir Siksek; Michael Stoll",
+      "year": 2013,
+      "url": "https://arxiv.org/abs/1309.4421",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "none"
+    },
+    {
       "id": 8,
       "title": "The ternary Goldbach conjecture is true",
       "authors": "H. A. Helfgott",
@@ -1780,6 +1830,16 @@
       "url": "https://arxiv.org/abs/1312.7748",
       "identity_status": "source_checked",
       "reading_status": "ABSTRACT_READ",
+      "extraction_status": "none"
+    },
+    {
+      "id": 18,
+      "title": "Primitive Integral Solutions to x^2 + y^3 = z^{10}",
+      "authors": "David Brown",
+      "year": 2009,
+      "url": "https://arxiv.org/abs/0911.2932",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
       "extraction_status": "none"
     },
     {
@@ -1798,6 +1858,16 @@
       "authors": "C. L. Stewart; Kunrui Yu",
       "year": 2001,
       "url": "https://doi.org/10.1215/S0012-7094-01-10815-6",
+      "identity_status": "candidate",
+      "reading_status": "METADATA_ONLY",
+      "extraction_status": "none"
+    },
+    {
+      "id": 17,
+      "title": "Winding quotients and some variants of Fermat's Last Theorem",
+      "authors": "Henri Darmon; Loïc Merel",
+      "year": 1997,
+      "url": "https://doi.org/10.1515/crll.1997.490.81",
       "identity_status": "candidate",
       "reading_status": "METADATA_ONLY",
       "extraction_status": "none"
@@ -1898,6 +1968,41 @@
       "problem_slug": "fermat-catalan-conjecture",
       "paper_id": 14,
       "relevance": "S-unit finiteness used for fixed prime support"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 15,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 16,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 17,
+      "relevance": "Historical classification lead for families {2,n,n} and {3,n,n}; exact original theorem not checked"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 18,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 19,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 20,
+      "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 21,
+      "relevance": "Source retrieved from arXiv"
     },
     {
       "problem_slug": "goldbach-conjecture",

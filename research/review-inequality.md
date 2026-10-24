@@ -1,4 +1,4 @@
-# Peer review of `/tmp/fc-inequality-attempt.md`
+# Peer review of `research/attempt-inequality.md`
 
 **Verdict:** The stated mathematical deductions are correct. The note clearly labels its finiteness argument as conditional on abc; it does not claim a proof of Fermat–Catalan.
 

@@ -1,4 +1,4 @@
-# Peer review of `/tmp/fc-height-second.md`
+# Peer review of `research/attempt-height.md`
 
 **Verdict:** The deductions and their conditional scope are sound. I found no mathematical error or claim of an unconditional Fermat–Catalan proof.
 

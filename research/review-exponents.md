@@ -1,0 +1,12 @@
+# Independent review: reduction of (2,3,n) exponents
+
+**Verdict:** The six-exception classification, finiteness equivalence, and factorization lemma in `research/attempt-exponents.md` are correct. They are partial reductions and do not prove Fermat–Catalan.
+
+1. For composite `n≥7`, the largest proper divisor is `n/s`, where `s` is the smallest prime factor. If `n/s<7`, the complete list is `8, 9, 10, 12, 15, 25`: `s=2` gives 8,10,12; `s=3` gives 9,15; `s=5` gives 25; `s≥7` is impossible because `n≥s²`. I checked the boundary cases `n=14` and `n=49`: each reduces to exponent 7 and belongs outside the exception list. A composite exponent outside the list can be replaced by a proper divisor at least 7, repeatedly, while preserving the powered-value triple and primitivity.
+2. The equivalence between finiteness of all distinct powered-value triples in the `(2,3,n≥7)` family and finiteness of its prime-exponent subfamily is valid **using Darmon–Granville finiteness for each of the six fixed exceptional signatures**. Each composite solution maps to exactly the same powered-value triple with either a prime exponent or one of those six exponents. The converse follows because prime signatures are a subfamily. This equivalence is only for `(2,3,n)`, not for the full Fermat–Catalan conjecture.
+3. `13²+7³=2⁹` is valid and primitive (`169+343=512`), with reciprocal sum `17/18`. It correctly refutes any attempt to apply Fermat's Last Theorem merely because two exponents share a factor 3.
+4. With `3|q,r`, the factorization `x^p=(U−V)(U²+UV+V²)` is valid. Because `gcd(U,V)=1`, a common divisor of its two positive factors divides `3V²` and is coprime to `V`, hence divides 3. If `3∤x`, the factors are coprime; unique factorization then makes each a perfect `p`th power. For the displayed example they are 1 and 169. This supplies no uniform finiteness theorem.
+
+**Small precision edit:** In the factorization paragraph, say that `U−V>0` follows from `x^p>0`, so applying unique factorization to positive factors is explicit. The note already has enough hypotheses for this. The original Darmon–Granville theorem was invoked through Poonen–Schaefer–Stoll rather than directly checked, as the note acknowledges.
+
+**Remaining obligation:** Prove a uniform finiteness result for distinct powered-value triples with prime output exponents `ℓ≥7`, or find a different argument across all exponent patterns. No such result is supplied here.

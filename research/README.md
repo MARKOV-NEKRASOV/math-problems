@@ -44,9 +44,35 @@ Four agents completed a second research pass on height and radical bounds, modul
 | Second-pass record | Contribution and limit |
 | --- | --- |
 | [Height/radical](attempt-height.md), [peer review](review-height.md) | An unconditional Stewart–Yu estimate and fixed-prime-support finiteness are too weak to control all solutions. The cited Stewart–Yu formula was corroborated through a secondary source because the article text was inaccessible. |
-| [Varying (2,3,ℓ) modular route](attempt-modular-uniform.md) | Frey-curve calculations and the cited seven-curve reduction are uniform in prime ℓ; determining relevant rational points on modular twists remains open across all ℓ. The literature claims were checked against the cited arXiv papers; a separate peer review is still pending. |
+| [Varying (2,3,ℓ) modular route](attempt-modular-uniform.md), [independent review](review-modular-uniform.md) | Frey-curve calculations and the cited seven-curve reduction are uniform in prime ℓ; determining relevant rational points on modular twists remains open across all ℓ. The review clarified that the cited Table 4 applies for prime ℓ≥11 and identified a concrete unresolved `27a1` branch. |
 | [Literature survey](literature-survey.md) | A 2025 survey gives results for varying-signature families under explicit congruence conditions. Its Theorems 11.1, 11.2, and 11.5 were checked against the survey PDF; the original papers and a new 2026 preprint still need independent review. |
 | [Congruence/factorization](attempt-congruence.md), [peer review](review-congruence.md) | Parity filters and a coprime factorization lemma apply across families but do not yield a uniform finiteness result. The review caught a missing symmetric mod-8 case, now added. |
+
+## Third research pass
+
+Four agents continued with primary-source audits and two new partial reductions:
+
+| Record | Checked result and limit |
+| --- | --- |
+| [Modular-route review](review-modular-uniform.md) | Confirms the seven-curve reduction under its hypotheses, corrects the range of Table 4 to prime exponent at least 11, and isolates a surviving `27a1` branch. |
+| [Survey review](review-literature.md) | Confirms the cited theorem statements and identifies **two** untreated divisibility classes in the `(n,n,5)` result. The recent `(3,5,7)` preprint remains an unverified claim. |
+| [Prime-support bound](attempt-support.md), [review](review-support.md) | Quantifies a weak necessary growth rate for the radical and largest supporting prime using a reported Stewart–Yu estimate. It gives no height bound. The exact estimate was corroborated through a secondary source. |
+| [Exponent reduction](attempt-exponents.md), [review](review-exponents.md) | Within `(2,3,n≥7)`, composite exponents reduce to prime exponents or six fixed exceptions `{8,9,10,12,15,25}`. Darmon–Granville then makes finiteness of this family equivalent to finiteness of its prime-exponent subfamily. This remains one infinite family of the full conjecture. |
+
+The next mathematical obligations are uniform control of the surviving prime-exponent family, the positive-solution rational points in the modular branches, and the untreated congruence classes in existing family theorems. None of the third-pass work proves the full conjecture.
+
+A [Darmon–Merel source audit](source-darmon-merel.md) confirms that Poonen–Schaefer–Stoll's 2005 table lists the hyperbolic families `{2,n,n}` and `{3,n,n}` as historically determined, with other work contributing for small `n`. The original 1997 article was inaccessible here, so its precise theorem and exception list remain unverified. Its paper record is a bibliographic lead, not an extracted theorem accepted as fact.
+
+## Fourth research pass
+
+| Route | Result and boundary |
+| --- | --- |
+| [`27a1` modular branch](attempt-27a1.md), [independent review](review-27a1.md), [local check](review-27a1-local.md) | For prime exponent `p≥17`, if a positive solution belongs to this branch and a prime `q≥5`, `q≠p`, divides `c` with `q≡2 (mod 3)`, then `q≡−1 (mod 6p)`. The branch assumption is essential; the condition leaves infinitely many possible primes. |
+| [Coprime-to-10 class of `(n,n,5)`](attempt-cm-class.md), [review](review-cm-class.md) | For positive odd bases, `n` must be odd and `v₂(a+b)=5v₂(c)`, so `32|a+b`. Chen–Koutsianas already proves a relevant irreducibility result; its surviving CM comparison forms remain the central obstruction. |
+| [Six fixed `(2,3,n)` exceptions](six-exceptions.md), [review](review-six-exceptions.md) | The cases `n=10,15` have signed classifications excluding positive non-unit solutions. The `n=25` source gives a conditional classification with five equations still unresolved. Sign and orientation conventions matter for `n=8`; the original Bruin paper and the `n=6` list behind `n=12` remain to audit. |
+| [Smooth-support bound](attempt-smooth.md) | A reported Stewart–Yu estimate implies that an unbounded solution sequence must have largest supporting prime `P≥(3−o(1)) log log C`. This is a weak necessary condition, and the exact source formula has only been checked through a secondary reference here. |
+
+These are partial results for selected families. The full Fermat–Catalan finiteness statement remains unproved.
 
 ## Collaborative next steps
 
