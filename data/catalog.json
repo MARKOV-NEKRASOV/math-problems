@@ -1,0 +1,1804 @@
+{
+  "problems": [
+    {
+      "slug": "1-2-3-conjecture",
+      "title": "1–2–3 conjecture",
+      "field": "Graph theory",
+      "statement": "Can edges of every connected graph with at least three vertices be weighted 1, 2, or 3 so adjacent vertices have different weighted degrees?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.76,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.76,
+          "rationale": "Three allowed weights are near known bounds; final step is still open."
+        }
+      ]
+    },
+    {
+      "slug": "andrica-conjecture",
+      "title": "Andrica conjecture",
+      "field": "Number theory",
+      "statement": "Is the difference between the square roots of consecutive primes always less than 1?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.82,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.82,
+          "rationale": "Needs prime-gap bounds beyond the current unconditional range."
+        }
+      ]
+    },
+    {
+      "slug": "artin-primitive-root-conjecture",
+      "title": "Artin primitive root conjecture",
+      "field": "Number theory",
+      "statement": "Is every integer other than -1 and a perfect square a primitive root modulo infinitely many primes?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.91,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.91,
+          "rationale": "Primitive-root distribution requires deep analytic number theory."
+        }
+      ]
+    },
+    {
+      "slug": "bateman-horn-conjecture",
+      "title": "Bateman–Horn conjecture",
+      "field": "Number theory",
+      "statement": "Does the predicted asymptotic count of simultaneous prime values of admissible polynomials hold?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.99,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.99,
+          "rationale": "Precise prime-value asymptotics for polynomial systems are far beyond reach."
+        }
+      ]
+    },
+    {
+      "slug": "beal-conjecture",
+      "title": "Beal conjecture",
+      "field": "Number theory",
+      "statement": "If A^x + B^y = C^z for positive integers and exponents greater than 2, must A, B, and C share a prime factor?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.96,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.96,
+          "rationale": "Generalized Fermat equations likely need stronger modular methods."
+        }
+      ]
+    },
+    {
+      "slug": "birch-and-swinnerton-dyer-conjecture",
+      "title": "Birch and Swinnerton-Dyer conjecture",
+      "field": "Arithmetic geometry",
+      "statement": "Does the rank of an elliptic curve over the rationals equal the order of vanishing of its L-function at 1?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 1.0,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 1.0,
+          "rationale": "Millennium-scale conjecture linking ranks and L-functions."
+        }
+      ]
+    },
+    {
+      "slug": "bloch-beilinson-conjectures",
+      "title": "Bloch–Beilinson conjectures",
+      "field": "Algebraic geometry",
+      "statement": "Does the predicted filtration on Chow groups with its expected motivic properties exist?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 1.0,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 1.0,
+          "rationale": "Large conjectural filtration framework needs foundational advances."
+        }
+      ]
+    },
+    {
+      "slug": "brocard-problem",
+      "title": "Brocard problem",
+      "field": "Number theory",
+      "statement": "Characterize all integer solutions of n!+1=m².",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.75,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.75,
+          "rationale": "Elementary statement with only a few known solutions; exclusion is hard."
+        }
+      ]
+    },
+    {
+      "slug": "brualdi-stein-conjecture",
+      "title": "Brualdi–Stein conjecture",
+      "field": "Combinatorics",
+      "statement": "Does every Latin square of even order have a partial transversal of size n-1?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.77,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.77,
+          "rationale": "The near-transversal bound is close to partial results but not general."
+        }
+      ]
+    },
+    {
+      "slug": "bunyakovsky-conjecture",
+      "title": "Bunyakovsky conjecture",
+      "field": "Number theory",
+      "statement": "Does every irreducible integer polynomial with positive leading coefficient and no fixed prime divisor take infinitely many prime values?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.97,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.97,
+          "rationale": "General prime-producing polynomial theorem needs major sieve advances."
+        }
+      ]
+    },
+    {
+      "slug": "caccetta-haggkvist-conjecture",
+      "title": "Caccetta–Häggkvist conjecture",
+      "field": "Graph theory",
+      "statement": "Does every n-vertex digraph with minimum outdegree at least r contain a directed cycle of length at most ceil(n/r)?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.91,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.91,
+          "rationale": "The directed-girth bound is difficult across all degree regimes."
+        }
+      ]
+    },
+    {
+      "slug": "carmichael-totient-conjecture",
+      "title": "Carmichael totient conjecture",
+      "field": "Number theory",
+      "statement": "Is there no positive integer n for which Euler's totient equation φ(x)=n has exactly one solution?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.81,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.81,
+          "rationale": "Totient multiplicities remain difficult to classify globally."
+        }
+      ]
+    },
+    {
+      "slug": "chowla-conjecture",
+      "title": "Chowla conjecture",
+      "field": "Number theory",
+      "statement": "Do products of the Liouville function at distinct shifts exhibit asymptotic cancellation?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.94,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.94,
+          "rationale": "Full correlations of multiplicative functions remain open."
+        }
+      ]
+    },
+    {
+      "slug": "collatz-conjecture",
+      "title": "Collatz conjecture",
+      "field": "Number theory",
+      "statement": "Does repeated application of n/2 for even n and 3n+1 for odd n reach 1 for every positive integer?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.94,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.94,
+          "rationale": "Simple dynamics conceal a difficult global termination question."
+        }
+      ]
+    },
+    {
+      "slug": "conway-thrackle-conjecture",
+      "title": "Conway thrackle conjecture",
+      "field": "Geometry",
+      "statement": "Can a drawing in which every pair of edges meets exactly once have more edges than vertices?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.78,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.78,
+          "rationale": "A simple-sounding drawing bound hides nontrivial topological cases."
+        }
+      ]
+    },
+    {
+      "slug": "cycle-double-cover-conjecture",
+      "title": "Cycle double cover conjecture",
+      "field": "Graph theory",
+      "statement": "Does every bridgeless finite graph admit a collection of cycles covering each edge exactly twice?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.91,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.91,
+          "rationale": "A universal cycle cover for bridgeless graphs requires deeper structure."
+        }
+      ]
+    },
+    {
+      "slug": "dixmier-conjecture",
+      "title": "Dixmier conjecture",
+      "field": "Algebra",
+      "statement": "Is every endomorphism of a Weyl algebra an automorphism?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.98,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.98,
+          "rationale": "Equivalent in difficulty to the Jacobian conjecture; broad algebraic obstruction."
+        }
+      ]
+    },
+    {
+      "slug": "eleven-eighths-conjecture",
+      "title": "Eleven-eighths conjecture",
+      "field": "Topology",
+      "statement": "Does every smooth closed spin four-manifold satisfy the proposed 11/8 bound on its intersection form?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.95,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.95,
+          "rationale": "Smooth four-manifold constraints remain far from the proposed bound."
+        }
+      ]
+    },
+    {
+      "slug": "erdos-unit-distance-problem",
+      "title": "Erdős unit distance problem",
+      "field": "Geometry",
+      "statement": "What is the maximum number of unit-distance pairs among n points in the plane?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.87,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.87,
+          "rationale": "Sharp extremal unit-distance bounds need stronger incidence techniques."
+        }
+      ]
+    },
+    {
+      "slug": "erdos-hajnal-conjecture",
+      "title": "Erdős–Hajnal conjecture",
+      "field": "Graph theory",
+      "statement": "Does forbidding any fixed induced subgraph force a polynomial-size clique or independent set?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.94,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.94,
+          "rationale": "A polynomial homogeneous-set bound needs new induced-subgraph theory."
+        }
+      ]
+    },
+    {
+      "slug": "erdos-moser-equation",
+      "title": "Erdős–Moser equation",
+      "field": "Number theory",
+      "statement": "Is 1^k + 2^k + ... + (m-1)^k = m^k possible for integers m greater than 1 and k greater than 1?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.88,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.88,
+          "rationale": "High-power sum equation needs stronger global exclusion bounds."
+        }
+      ]
+    },
+    {
+      "slug": "erdos-straus-conjecture",
+      "title": "Erdős–Straus conjecture",
+      "field": "Number theory",
+      "statement": "Can 4/n be written as 1/x + 1/y + 1/z in positive integers for every n at least 2?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.78,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.78,
+          "rationale": "Many cases verified; a uniform Egyptian-fraction argument is missing."
+        }
+      ]
+    },
+    {
+      "slug": "erdos-szekeres-convex-polygon-conjecture",
+      "title": "Erdős–Szekeres convex polygon conjecture",
+      "field": "Combinatorics",
+      "statement": "Is the minimum number of general-position planar points forcing a convex n-gon equal to 2^(n-2)+1?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.81,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.81,
+          "rationale": "Exact convex-polygon thresholds need sharper extremal configurations."
+        }
+      ]
+    },
+    {
+      "slug": "erdos-ulam-problem",
+      "title": "Erdős–Ulam problem",
+      "field": "Geometry",
+      "statement": "Is there a dense subset of the Euclidean plane whose pairwise distances are all rational?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.89,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.89,
+          "rationale": "Dense rational-distance structure would require major arithmetic-geometric insight."
+        }
+      ]
+    },
+    {
+      "slug": "falconer-distance-conjecture",
+      "title": "Falconer distance conjecture",
+      "field": "Geometry",
+      "statement": "Does a planar set of Hausdorff dimension greater than 1 have a distance set of positive measure?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.91,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.91,
+          "rationale": "The endpoint distance-set threshold resists present geometric measure methods."
+        }
+      ]
+    },
+    {
+      "slug": "fermat-catalan-conjecture",
+      "title": "Fermat–Catalan conjecture",
+      "field": "Number theory",
+      "statement": "Are there only finitely many distinct triples of powers (x^p,y^q,z^r) from coprime positive integers x,y,z satisfying x^p+y^q=z^r, with p,q,r greater than 1 and 1/p+1/q+1/r less than 1?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/Fermat%E2%80%93Catalan_conjecture",
+      "complexity": 0.98,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.98,
+          "rationale": "Requires uniform control across infinitely many generalized Fermat signatures."
+        }
+      ]
+    },
+    {
+      "slug": "fontaine-mazur-conjecture",
+      "title": "Fontaine–Mazur conjecture",
+      "field": "Arithmetic geometry",
+      "statement": "Do geometric p-adic Galois representations come from the expected arithmetic constructions?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.99,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.99,
+          "rationale": "General classification of geometric Galois representations is far-reaching."
+        }
+      ]
+    },
+    {
+      "slug": "four-exponentials-conjecture",
+      "title": "Four exponentials conjecture",
+      "field": "Number theory",
+      "statement": "For two rationally linearly independent pairs x₁,x₂ and y₁,y₂, must at least one of the four numbers exp(xᵢyⱼ) be transcendental?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.97,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.97,
+          "rationale": "Core transcendence conjecture exceeds current exponential methods."
+        }
+      ]
+    },
+    {
+      "slug": "generalized-riemann-hypothesis",
+      "title": "Generalized Riemann hypothesis",
+      "field": "Number theory",
+      "statement": "Do all nontrivial zeros of every Dirichlet L-function have real part 1/2?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.99,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.99,
+          "rationale": "Extends RH across Dirichlet L-functions; broad new methods likely."
+        }
+      ]
+    },
+    {
+      "slug": "goldbach-conjecture",
+      "title": "Goldbach conjecture",
+      "field": "Number theory",
+      "statement": "Is every even integer greater than 2 a sum of two primes?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.89,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.89,
+          "rationale": "Additive prime representation resists current sieve techniques."
+        }
+      ]
+    },
+    {
+      "slug": "graceful-tree-conjecture",
+      "title": "Graceful tree conjecture",
+      "field": "Graph theory",
+      "statement": "Does every finite tree admit a graceful labeling?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.79,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.79,
+          "rationale": "A constructive labeling for every tree has resisted many special cases."
+        }
+      ]
+    },
+    {
+      "slug": "graph-isomorphism-in-p",
+      "title": "Graph isomorphism in P",
+      "field": "Theoretical computer science",
+      "statement": "Is graph isomorphism decidable in deterministic polynomial time?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.91,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.91,
+          "rationale": "Quasipolynomial algorithms do not yet give a polynomial-time bound."
+        }
+      ]
+    },
+    {
+      "slug": "graph-reconstruction-conjecture",
+      "title": "Graph reconstruction conjecture",
+      "field": "Graph theory",
+      "statement": "Is every finite simple graph with at least three vertices determined by its vertex-deleted subgraphs?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.89,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.89,
+          "rationale": "Reconstruction across all finite graphs needs a new global method."
+        }
+      ]
+    },
+    {
+      "slug": "grothendieck-period-conjecture",
+      "title": "Grothendieck period conjecture",
+      "field": "Algebraic geometry",
+      "statement": "Are all algebraic relations among periods explained by algebraic geometry?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 1.0,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 1.0,
+          "rationale": "Would explain all period relations through algebraic geometry."
+        }
+      ]
+    },
+    {
+      "slug": "grothendieck-section-conjecture",
+      "title": "Grothendieck section conjecture",
+      "field": "Arithmetic geometry",
+      "statement": "Do rational points on a hyperbolic curve correspond exactly to sections of its arithmetic fundamental group?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.98,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.98,
+          "rationale": "Bridges rational points and anabelian fundamental groups in full generality."
+        }
+      ]
+    },
+    {
+      "slug": "gyarfas-sumner-conjecture",
+      "title": "Gyárfás–Sumner conjecture",
+      "field": "Graph theory",
+      "statement": "For every tree T and integer k, do T-free graphs of bounded clique number have bounded chromatic number?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.91,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.91,
+          "rationale": "The full tree-forbidding chromatic bound remains unresolved."
+        }
+      ]
+    },
+    {
+      "slug": "hadamard-matrix-conjecture",
+      "title": "Hadamard matrix conjecture",
+      "field": "Combinatorics",
+      "statement": "Does a Hadamard matrix exist for every positive order divisible by 4?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.85,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.85,
+          "rationale": "Uniform constructions for every multiple of four remain unknown."
+        }
+      ]
+    },
+    {
+      "slug": "hadwiger-conjecture",
+      "title": "Hadwiger conjecture",
+      "field": "Graph theory",
+      "statement": "Does every graph with no K_(t+1) minor admit a proper t-coloring?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.96,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.96,
+          "rationale": "General graph-minor coloring extends far beyond settled small cases."
+        }
+      ]
+    },
+    {
+      "slug": "hadwiger-nelson-problem",
+      "title": "Hadwiger–Nelson problem",
+      "field": "Geometry",
+      "statement": "What is the exact chromatic number of the Euclidean plane when points at unit distance need different colors?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.73,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.73,
+          "rationale": "Sharp plane coloring bounds are close but need a decisive construction or obstruction."
+        }
+      ]
+    },
+    {
+      "slug": "harary-hill-crossing-number-conjecture",
+      "title": "Harary–Hill crossing number conjecture",
+      "field": "Graph theory",
+      "statement": "Does the standard formula give the crossing number of every complete graph K_n?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.88,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.88,
+          "rationale": "The standard crossing formula is hard to prove for all complete graphs."
+        }
+      ]
+    },
+    {
+      "slug": "higher-dimensional-kakeya-conjecture",
+      "title": "Higher-dimensional Kakeya conjecture",
+      "field": "Geometry",
+      "statement": "Must every Kakeya set in Euclidean dimension at least 4 have full Hausdorff dimension?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.94,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.94,
+          "rationale": "Higher-dimensional Kakeya geometry likely needs new incidence or analytic tools."
+        }
+      ]
+    },
+    {
+      "slug": "hilbert-s-tenth-problem-over-q",
+      "title": "Hilbert's tenth problem over Q",
+      "field": "Number theory",
+      "statement": "Is there an algorithm deciding whether an arbitrary polynomial equation over Q has a rational solution?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.98,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.98,
+          "rationale": "The rational decision problem has resisted all known undecidability methods."
+        }
+      ]
+    },
+    {
+      "slug": "hodge-conjecture",
+      "title": "Hodge conjecture",
+      "field": "Algebraic geometry",
+      "statement": "Is every rational Hodge class on a smooth projective complex variety a rational combination of algebraic cycles?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 1.0,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 1.0,
+          "rationale": "Millennium-scale algebraic-cycle classification needs new tools."
+        }
+      ]
+    },
+    {
+      "slug": "hopf-sign-conjecture",
+      "title": "Hopf sign conjecture",
+      "field": "Topology",
+      "statement": "Does every closed nonpositively curved even-dimensional manifold have Euler characteristic with the predicted sign?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.93,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.93,
+          "rationale": "Curvature-sign control in all even dimensions remains structurally difficult."
+        }
+      ]
+    },
+    {
+      "slug": "illumination-conjecture",
+      "title": "Illumination conjecture",
+      "field": "Geometry",
+      "statement": "Can every convex body in dimension d be illuminated by at most 2^d directions?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.86,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.86,
+          "rationale": "A dimension-uniform illumination bound remains beyond current approaches."
+        }
+      ]
+    },
+    {
+      "slug": "infinitely-many-fermat-primes",
+      "title": "Infinitely many Fermat primes",
+      "field": "Number theory",
+      "statement": "Are there infinitely many primes of the form 2 to the (2 to the n) plus 1?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.91,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.91,
+          "rationale": "Extremely sparse sequence; even the expected answer is uncertain."
+        }
+      ]
+    },
+    {
+      "slug": "infinitely-many-mersenne-primes",
+      "title": "Infinitely many Mersenne primes",
+      "field": "Number theory",
+      "statement": "Are there infinitely many primes of the form 2 to the n minus 1?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.9,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.9,
+          "rationale": "Very sparse exponential sequence frustrates standard prime tools."
+        }
+      ]
+    },
+    {
+      "slug": "infinitely-many-sophie-germain-primes",
+      "title": "Infinitely many Sophie Germain primes",
+      "field": "Number theory",
+      "statement": "Are there infinitely many primes p for which 2p+1 is also prime?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.92,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.92,
+          "rationale": "Prime pair pattern remains beyond current prime-value methods."
+        }
+      ]
+    },
+    {
+      "slug": "inverse-galois-problem",
+      "title": "Inverse Galois problem",
+      "field": "Algebra",
+      "statement": "Can every finite group occur as a Galois group over the rational numbers?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.96,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.96,
+          "rationale": "Would construct all finite groups as Galois groups over Q."
+        }
+      ]
+    },
+    {
+      "slug": "irrationality-of-catalan-s-constant",
+      "title": "Irrationality of Catalan's constant",
+      "field": "Number theory",
+      "statement": "Is Catalan's constant irrational?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.88,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.88,
+          "rationale": "Even irrationality is unknown; present methods give limited bounds."
+        }
+      ]
+    },
+    {
+      "slug": "irrationality-of-euler-s-constant",
+      "title": "Irrationality of Euler's constant",
+      "field": "Number theory",
+      "statement": "Is the Euler–Mascheroni constant irrational?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.9,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.9,
+          "rationale": "Even irrationality is unknown despite extensive analytic study."
+        }
+      ]
+    },
+    {
+      "slug": "jacobian-conjecture",
+      "title": "Jacobian conjecture",
+      "field": "Algebra",
+      "statement": "Is every polynomial self-map of complex affine space with constant nonzero Jacobian determinant invertible by polynomials?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.94,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.94,
+          "rationale": "Simple polynomial formulation, but no general inversion proof is known."
+        }
+      ]
+    },
+    {
+      "slug": "kummer-vandiver-conjecture",
+      "title": "Kummer–Vandiver conjecture",
+      "field": "Number theory",
+      "statement": "Does p never divide the class number of the maximal real subfield of the p-th cyclotomic field?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.92,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.92,
+          "rationale": "General cyclotomic class-number nondivisibility is very difficult."
+        }
+      ]
+    },
+    {
+      "slug": "kurepa-hypothesis",
+      "title": "Kurepa hypothesis",
+      "field": "Number theory",
+      "statement": "For every odd prime p, is the left factorial !p nonzero modulo p?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.83,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.83,
+          "rationale": "Factorial congruences resist a proof across all odd primes."
+        }
+      ]
+    },
+    {
+      "slug": "langlands-functoriality-conjecture",
+      "title": "Langlands functoriality conjecture",
+      "field": "Representation theory",
+      "statement": "Do the predicted transfers of automorphic representations for L-group maps exist in general?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 1.0,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 1.0,
+          "rationale": "Central unifying transfer principle across automorphic representation theory."
+        }
+      ]
+    },
+    {
+      "slug": "lebesgue-universal-covering-problem",
+      "title": "Lebesgue universal covering problem",
+      "field": "Geometry",
+      "statement": "What is the smallest-area convex shape that can contain every planar set of diameter 1 after a rigid motion?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.78,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.78,
+          "rationale": "Optimizing the universal cover is difficult but geometrically concrete."
+        }
+      ]
+    },
+    {
+      "slug": "legendre-conjecture",
+      "title": "Legendre conjecture",
+      "field": "Number theory",
+      "statement": "Is there a prime strictly between n squared and (n+1) squared for every positive integer n?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.85,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.85,
+          "rationale": "Requires prime control in intervals shorter than established bounds."
+        }
+      ]
+    },
+    {
+      "slug": "lehmer-tau-conjecture",
+      "title": "Lehmer tau conjecture",
+      "field": "Number theory",
+      "statement": "Is Ramanujan's tau function nonzero at every positive integer?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.92,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.92,
+          "rationale": "Nonvanishing of all tau coefficients requires deep modular-form insight."
+        }
+      ]
+    },
+    {
+      "slug": "lehmer-totient-problem",
+      "title": "Lehmer totient problem",
+      "field": "Number theory",
+      "statement": "If φ(n) divides n-1, must n be prime?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.84,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.84,
+          "rationale": "Would rule out composite totient divisibility exceptions."
+        }
+      ]
+    },
+    {
+      "slug": "leopoldt-conjecture",
+      "title": "Leopoldt conjecture",
+      "field": "Number theory",
+      "statement": "Does the p-adic regulator of every number field have the expected nonzero rank?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.96,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.96,
+          "rationale": "p-adic regulator nonvanishing over all number fields needs new insight."
+        }
+      ]
+    },
+    {
+      "slug": "lindelof-hypothesis",
+      "title": "Lindelöf hypothesis",
+      "field": "Number theory",
+      "statement": "Does the zeta function grow more slowly than every positive power along the critical line?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.96,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.96,
+          "rationale": "Critical-line growth control is closely tied to RH."
+        }
+      ]
+    },
+    {
+      "slug": "list-edge-coloring-conjecture",
+      "title": "List edge coloring conjecture",
+      "field": "Graph theory",
+      "statement": "Does the list chromatic index of every graph equal its chromatic index?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.85,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.85,
+          "rationale": "List constraints make a universal edge-coloring equality difficult."
+        }
+      ]
+    },
+    {
+      "slug": "littlewood-conjecture",
+      "title": "Littlewood conjecture",
+      "field": "Number theory",
+      "statement": "For all real α and β, is inf over n≥1 of n·||nα||·||nβ|| equal to zero, where ||x|| is the distance to the nearest integer?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.95,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.95,
+          "rationale": "Simultaneous Diophantine approximation remains resistant in full generality."
+        }
+      ]
+    },
+    {
+      "slug": "log-rank-conjecture",
+      "title": "Log-rank conjecture",
+      "field": "Theoretical computer science",
+      "statement": "Is deterministic communication complexity polynomially bounded by the logarithm of a sign matrix's rank?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.93,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.93,
+          "rationale": "The proposed rank relation needs new communication-complexity tools."
+        }
+      ]
+    },
+    {
+      "slug": "mahler-conjecture",
+      "title": "Mahler conjecture",
+      "field": "Geometry",
+      "statement": "Do the conjectured extremal convex bodies minimize the volume product among centrally symmetric convex bodies?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.9,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.9,
+          "rationale": "General convex body extremality likely requires new geometric methods."
+        }
+      ]
+    },
+    {
+      "slug": "matrix-multiplication-exponent",
+      "title": "Matrix multiplication exponent",
+      "field": "Theoretical computer science",
+      "statement": "Is the exponent of square matrix multiplication equal to 2?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.96,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.96,
+          "rationale": "Proving exponent two demands fundamentally stronger multiplication algorithms."
+        }
+      ]
+    },
+    {
+      "slug": "montgomery-pair-correlation-conjecture",
+      "title": "Montgomery pair correlation conjecture",
+      "field": "Number theory",
+      "statement": "Do the normalized spacings of nontrivial zeta zeros obey the predicted pair correlation law?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.98,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.98,
+          "rationale": "Fine zero-spacing statistics require new spectral or analytic methods."
+        }
+      ]
+    },
+    {
+      "slug": "np-versus-conp",
+      "title": "NP versus coNP",
+      "field": "Theoretical computer science",
+      "statement": "Are NP and coNP distinct complexity classes?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.99,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.99,
+          "rationale": "A separation would require major circuit or proof-complexity advances."
+        }
+      ]
+    },
+    {
+      "slug": "navier-stokes-existence-and-smoothness",
+      "title": "Navier–Stokes existence and smoothness",
+      "field": "Analysis and PDE",
+      "statement": "Do smooth divergence-free initial data in three dimensions always yield global smooth Navier–Stokes solutions?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 1.0,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 1.0,
+          "rationale": "A Millennium Prize problem with a fundamental three-dimensional regularity gap."
+        }
+      ]
+    },
+    {
+      "slug": "novikov-conjecture",
+      "title": "Novikov conjecture",
+      "field": "Topology",
+      "statement": "Are higher signatures of closed oriented manifolds invariant under oriented homotopy equivalence?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.95,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.95,
+          "rationale": "The full conjecture spans general groups beyond proved cases."
+        }
+      ]
+    },
+    {
+      "slug": "odd-perfect-number-problem",
+      "title": "Odd perfect number problem",
+      "field": "Number theory",
+      "statement": "Does an odd perfect number exist?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.86,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.86,
+          "rationale": "Deep divisibility bounds exist, but existence remains unresolved."
+        }
+      ]
+    },
+    {
+      "slug": "oppermann-conjecture",
+      "title": "Oppermann conjecture",
+      "field": "Number theory",
+      "statement": "Does each half of the interval between consecutive squares contain a prime?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.87,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.87,
+          "rationale": "Strengthens prime-between-squares estimates in two subintervals."
+        }
+      ]
+    },
+    {
+      "slug": "p-versus-np",
+      "title": "P versus NP",
+      "field": "Theoretical computer science",
+      "statement": "Can every problem whose solution is efficiently verified also be efficiently solved?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 1.0,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 1.0,
+          "rationale": "Separating polynomial-time verification from solution is a foundational barrier."
+        }
+      ]
+    },
+    {
+      "slug": "polignac-conjecture",
+      "title": "Polignac conjecture",
+      "field": "Number theory",
+      "statement": "Does every positive even integer occur infinitely often as a gap between consecutive primes?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.93,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.93,
+          "rationale": "Requires every even prime gap to recur infinitely often."
+        }
+      ]
+    },
+    {
+      "slug": "prime-k-tuple-conjecture",
+      "title": "Prime k-tuple conjecture",
+      "field": "Number theory",
+      "statement": "Does every admissible finite pattern of prime offsets occur infinitely often?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.96,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.96,
+          "rationale": "General admissible prime patterns need stronger sieve tools."
+        }
+      ]
+    },
+    {
+      "slug": "riemann-hypothesis",
+      "title": "Riemann hypothesis",
+      "field": "Number theory",
+      "statement": "Do all nontrivial zeros of the Riemann zeta function have real part 1/2?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.99,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.99,
+          "rationale": "Foundational analytic-number-theory barrier; likely requires new methods."
+        }
+      ]
+    },
+    {
+      "slug": "ryser-conjecture-on-latin-squares",
+      "title": "Ryser conjecture on Latin squares",
+      "field": "Combinatorics",
+      "statement": "Does every Latin square of odd order have a transversal?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.83,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.83,
+          "rationale": "A transversal in every odd Latin square needs a uniform combinatorial proof."
+        }
+      ]
+    },
+    {
+      "slug": "sarnak-mobius-disjointness-conjecture",
+      "title": "Sarnak Möbius disjointness conjecture",
+      "field": "Number theory",
+      "statement": "Is the Möbius function asymptotically orthogonal to every zero-entropy dynamical system?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.95,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.95,
+          "rationale": "Uniform Möbius orthogonality across zero-entropy dynamics is broad."
+        }
+      ]
+    },
+    {
+      "slug": "schanuel-conjecture",
+      "title": "Schanuel conjecture",
+      "field": "Number theory",
+      "statement": "Does every rationally linearly independent tuple of complex numbers satisfy Schanuel's transcendence-degree bound?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 1.0,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 1.0,
+          "rationale": "Sweeping transcendence statement would require fundamentally new tools."
+        }
+      ]
+    },
+    {
+      "slug": "schinzel-hypothesis-h",
+      "title": "Schinzel hypothesis H",
+      "field": "Number theory",
+      "statement": "Do compatible irreducible integer polynomials simultaneously take prime values infinitely often?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.99,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.99,
+          "rationale": "Unifies simultaneous prime values; new general machinery likely."
+        }
+      ]
+    },
+    {
+      "slug": "sidorenko-conjecture",
+      "title": "Sidorenko conjecture",
+      "field": "Graph theory",
+      "statement": "Does every bipartite graph satisfy the predicted lower bound on homomorphism density?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.9,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.9,
+          "rationale": "Universal bipartite homomorphism inequalities need a broad proof technique."
+        }
+      ]
+    },
+    {
+      "slug": "singer-conjecture",
+      "title": "Singer conjecture",
+      "field": "Topology",
+      "statement": "Does an aspherical closed manifold have L²-Betti numbers concentrated in its middle dimension?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.94,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.94,
+          "rationale": "General aspherical manifolds require stronger L² and geometric topology tools."
+        }
+      ]
+    },
+    {
+      "slug": "slice-ribbon-conjecture",
+      "title": "Slice–ribbon conjecture",
+      "field": "Topology",
+      "statement": "Is every slice knot a ribbon knot?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.86,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.86,
+          "rationale": "Known knot invariants do not settle all slice knots."
+        }
+      ]
+    },
+    {
+      "slug": "smooth-four-dimensional-poincare-conjecture",
+      "title": "Smooth four-dimensional Poincaré conjecture",
+      "field": "Topology",
+      "statement": "Is every smooth four-manifold homeomorphic to the four-sphere also diffeomorphic to it?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.99,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.99,
+          "rationale": "Smooth four-dimensional classification has deep unresolved obstructions."
+        }
+      ]
+    },
+    {
+      "slug": "smooth-four-dimensional-schoenflies-conjecture",
+      "title": "Smooth four-dimensional Schoenflies conjecture",
+      "field": "Topology",
+      "statement": "Does every smoothly embedded three-sphere in the four-sphere bound a standard smooth four-ball on each side?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.98,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.98,
+          "rationale": "Smooth embedding and four-ball issues are central four-dimensional barriers."
+        }
+      ]
+    },
+    {
+      "slug": "standard-conjectures-on-algebraic-cycles",
+      "title": "Standard conjectures on algebraic cycles",
+      "field": "Algebraic geometry",
+      "statement": "Do Grothendieck's expected positivity and Lefschetz properties for algebraic cycles hold?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 1.0,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 1.0,
+          "rationale": "Several foundational motivic positivity statements remain unresolved."
+        }
+      ]
+    },
+    {
+      "slug": "sunflower-conjecture",
+      "title": "Sunflower conjecture",
+      "field": "Combinatorics",
+      "statement": "For each fixed petal count m, is there a constant Cₘ such that more than Cₘ^k distinct k-element sets force an m-sunflower?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.9,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.9,
+          "rationale": "Exponential sunflower thresholds need stronger set-system techniques."
+        }
+      ]
+    },
+    {
+      "slug": "tate-conjecture",
+      "title": "Tate conjecture",
+      "field": "Algebraic geometry",
+      "statement": "Are suitable Galois-invariant cohomology classes generated by algebraic cycles?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.99,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.99,
+          "rationale": "Broad finite-field analog of Hodge-type cycle questions."
+        }
+      ]
+    },
+    {
+      "slug": "three-dimensional-euler-blowup-problem",
+      "title": "Three-dimensional Euler blowup problem",
+      "field": "Analysis and PDE",
+      "statement": "Can smooth initial data for the three-dimensional incompressible Euler equations develop a finite-time singularity?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.99,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.99,
+          "rationale": "Finite-time Euler singularity remains a core unsolved PDE question."
+        }
+      ]
+    },
+    {
+      "slug": "total-coloring-conjecture",
+      "title": "Total coloring conjecture",
+      "field": "Graph theory",
+      "statement": "Is the total chromatic number of every graph at most its maximum degree plus 2?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.82,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.82,
+          "rationale": "Closing the last color gap for all graphs requires a general argument."
+        }
+      ]
+    },
+    {
+      "slug": "tutte-five-flow-conjecture",
+      "title": "Tutte five-flow conjecture",
+      "field": "Graph theory",
+      "statement": "Does every bridgeless finite graph have a nowhere-zero 5-flow?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.83,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.83,
+          "rationale": "The 5-flow bound is close to known flow results but remains open."
+        }
+      ]
+    },
+    {
+      "slug": "tutte-three-flow-conjecture",
+      "title": "Tutte three-flow conjecture",
+      "field": "Graph theory",
+      "statement": "Does every 4-edge-connected finite graph have a nowhere-zero 3-flow?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.9,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.9,
+          "rationale": "The 3-flow claim is substantially stronger than known general bounds."
+        }
+      ]
+    },
+    {
+      "slug": "twin-prime-conjecture",
+      "title": "Twin prime conjecture",
+      "field": "Number theory",
+      "statement": "Are there infinitely many pairs of primes differing by 2?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.92,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.92,
+          "rationale": "Bounded gaps are known, but reducing the gap to two remains hard."
+        }
+      ]
+    },
+    {
+      "slug": "union-closed-sets-conjecture",
+      "title": "Union-closed sets conjecture",
+      "field": "Combinatorics",
+      "statement": "Does every finite union-closed family containing at least one nonempty set have an element in at least half of its sets?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.82,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.82,
+          "rationale": "A universal half-frequency argument still eludes partial advances."
+        }
+      ]
+    },
+    {
+      "slug": "unique-games-conjecture",
+      "title": "Unique games conjecture",
+      "field": "Theoretical computer science",
+      "statement": "Is it NP-hard to distinguish nearly satisfiable from highly unsatisfiable unique games?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.97,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.97,
+          "rationale": "A full hardness proof would reshape approximation complexity."
+        }
+      ]
+    },
+    {
+      "slug": "vp-versus-vnp",
+      "title": "VP versus VNP",
+      "field": "Theoretical computer science",
+      "statement": "Are the algebraic complexity classes VP and VNP distinct?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.99,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.99,
+          "rationale": "Algebraic complexity separation is a major lower-bound frontier."
+        }
+      ]
+    },
+    {
+      "slug": "volume-conjecture-for-knots",
+      "title": "Volume conjecture for knots",
+      "field": "Topology",
+      "statement": "Does the asymptotic growth of colored Jones polynomials recover hyperbolic knot volume?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.91,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.91,
+          "rationale": "Connecting quantum invariants to volume uniformly needs new arguments."
+        }
+      ]
+    },
+    {
+      "slug": "yang-mills-existence-and-mass-gap",
+      "title": "Yang–Mills existence and mass gap",
+      "field": "Analysis and PDE",
+      "statement": "Can a nontrivial quantum Yang–Mills theory on four-dimensional space be constructed rigorously with a positive mass gap?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 1.0,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 1.0,
+          "rationale": "Rigorous four-dimensional quantum field construction and a mass gap need new tools."
+        }
+      ]
+    },
+    {
+      "slug": "zarankiewicz-crossing-number-conjecture",
+      "title": "Zarankiewicz crossing number conjecture",
+      "field": "Graph theory",
+      "statement": "Does the standard Zarankiewicz formula give the crossing number of every complete bipartite graph K_(m,n)?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.87,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-b",
+          "score": 0.87,
+          "rationale": "Complete bipartite crossing numbers remain difficult in general."
+        }
+      ]
+    },
+    {
+      "slug": "zaremba-conjecture",
+      "title": "Zaremba conjecture",
+      "field": "Number theory",
+      "statement": "Is there a universal bound A such that every positive integer is the denominator of a reduced fraction whose continued-fraction coefficients are at most A?",
+      "status": "open_unverified",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics",
+      "complexity": 0.84,
+      "rating_count": 1,
+      "ratings": [
+        {
+          "agent": "initial-review-a",
+          "score": 0.84,
+          "rationale": "Known density results do not yet cover every denominator."
+        }
+      ]
+    }
+  ],
+  "papers": [
+    {
+      "id": 7,
+      "title": "Almost all orbits of the Collatz map attain almost bounded values",
+      "authors": "Terence Tao",
+      "year": 2022,
+      "url": "https://arxiv.org/abs/1909.03562"
+    },
+    {
+      "id": 6,
+      "title": "Small gaps between primes",
+      "authors": "James Maynard",
+      "year": 2015,
+      "url": "https://arxiv.org/abs/1311.4600"
+    },
+    {
+      "id": 5,
+      "title": "Bounded gaps between primes",
+      "authors": "Yitang Zhang",
+      "year": 2014,
+      "url": "https://doi.org/10.4007/annals.2014.179.3.7"
+    },
+    {
+      "id": 8,
+      "title": "The ternary Goldbach conjecture is true",
+      "authors": "Harald Andrés Helfgott",
+      "year": 2013,
+      "url": "https://arxiv.org/abs/1312.7748"
+    },
+    {
+      "id": 2,
+      "title": "Twists of X(7) and primitive solutions to x² + y³ = z⁷",
+      "authors": "Bjorn Poonen; Edward F. Schaefer; Michael Stoll",
+      "year": 2007,
+      "url": "https://arxiv.org/abs/math/0508174"
+    },
+    {
+      "id": 3,
+      "title": "Modular elliptic curves and Fermat's Last Theorem",
+      "authors": "Andrew Wiles",
+      "year": 1995,
+      "url": "https://doi.org/10.2307/2118559"
+    },
+    {
+      "id": 1,
+      "title": "On the equations z^m = F(x,y) and Ax^p + By^q = Cz^r",
+      "authors": "Henri Darmon; Andrew Granville",
+      "year": 1995,
+      "url": "https://doi.org/10.1112/blms/27.6.513"
+    },
+    {
+      "id": 4,
+      "title": "Ring-theoretic properties of certain Hecke algebras",
+      "authors": "Richard Taylor; Andrew Wiles",
+      "year": 1995,
+      "url": "https://doi.org/10.2307/2118560"
+    }
+  ],
+  "links": [
+    {
+      "problem_slug": "collatz-conjecture",
+      "paper_id": 7,
+      "relevance": "Partial progress on typical Collatz trajectories."
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 1,
+      "relevance": "Finiteness results for generalized Fermat equations."
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 2,
+      "relevance": "A specific signature of the generalized Fermat equation."
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 3,
+      "relevance": "Foundational modularity method relevant to generalized Fermat equations."
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 4,
+      "relevance": "Companion paper for the modularity method."
+    },
+    {
+      "problem_slug": "goldbach-conjecture",
+      "paper_id": 8,
+      "relevance": "A resolved related problem; useful context for the binary conjecture."
+    },
+    {
+      "problem_slug": "twin-prime-conjecture",
+      "paper_id": 5,
+      "relevance": "Establishes a finite bound for infinitely many prime gaps."
+    },
+    {
+      "problem_slug": "twin-prime-conjecture",
+      "paper_id": 6,
+      "relevance": "Develops a sieve method for bounded prime gaps."
+    }
+  ]
+}

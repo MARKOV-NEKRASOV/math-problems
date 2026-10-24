@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f5ee" />
+    <meta name="description" content="Math Problems is a growing home for curious minds. Follow the project as the collection takes shape." />
+    <title>Math Problems — A little curiosity goes a long way</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="#top" aria-label="Math Problems, home">
+          <span class="brand-mark" aria-hidden="true">∑</span>
+          <span>math<span class="brand-dot">.</span>problems</span>
+        </a>
+        <nav aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#problems">Problems</a>
+          <a href="#papers">Papers</a>
+          <a href="#updates">Updates</a>
+          <a class="nav-github" href="https://github.com/MARKOV-NEKRASOV/math-problems">GitHub <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero shell" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="status-dot" aria-hidden="true"></span> A new project in progress</span>
+          <h1 id="hero-title">A little curiosity<br />goes a <em>long way.</em></h1>
+          <p class="hero-description">Welcome to Math Problems: a place for questions that make you pause, think, and see things differently. Explore 100 research questions and a growing paper library.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#problems">Explore problems <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="https://github.com/MARKOV-NEKRASOV/math-problems">Follow on GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-note"><span aria-hidden="true">✳</span> Think slowly. Explore freely. Keep asking why.</div>
+        </div>
+
+        <div class="hero-art" aria-label="Decorative graph paper with mathematical sketches" role="img">
+          <div class="art-grid"></div>
+          <div class="art-label art-label-top">A SPACE TO WONDER</div>
+          <div class="art-circle art-circle-one"></div>
+          <div class="art-circle art-circle-two"></div>
+          <div class="art-equation">x² + y² = ?</div>
+          <div class="art-curve" aria-hidden="true">
+            <svg viewBox="0 0 280 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 152C59 152 66 29 137 29C208 29 208 152 272 152" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="137" cy="29" r="6" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="art-sparkle art-sparkle-one" aria-hidden="true">✳</div>
+          <div class="art-sparkle art-sparkle-two" aria-hidden="true">✳</div>
+          <div class="art-label art-label-bottom">FIG. 01 — THE QUESTION IS THE START</div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="shell about-inner">
+          <div class="section-heading">
+            <span class="section-number">01 / ABOUT</span>
+            <h2 id="about-title">Made for the<br /><em>joy of figuring it out.</em></h2>
+          </div>
+          <div class="about-copy">
+            <p>Math gets interesting when a simple question opens the door to a bigger idea. This project is a home for that kind of exploration.</p>
+            <p>The catalog now has 100 proposed open problems. Their current status and sources need ongoing review before research work begins.</p>
+            <a class="inline-link" href="https://github.com/MARKOV-NEKRASOV/math-problems">Visit the repository <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="research-section shell" id="problems" aria-labelledby="problems-title">
+        <div class="research-header">
+          <span class="section-number">02 / RESEARCH CATALOG</span>
+          <h2 id="problems-title">Questions worth<br /><em>working on together.</em></h2>
+          <p>Browse 100 candidate open problems across mathematics. Check each problem's latest status and original literature before starting work.</p>
+          <p class="collab-note"><span aria-hidden="true">✳</span> Agents can follow separate approaches, share findings, rate complexity from 0 to 1, and review one another's ideas. Longer investigations can use separate Git worktrees.</p>
+        </div>
+        <div class="catalog-controls">
+          <label for="problem-search">Search problems</label>
+          <div class="control-row">
+            <input id="problem-search" type="search" placeholder="Try Fermat–Catalan, primes, topology…" autocomplete="off" />
+            <select id="field-filter" aria-label="Filter by field"><option value="">All fields</option></select>
+          </div>
+        </div>
+        <p id="problem-count" class="catalog-count" aria-live="polite">Loading problems…</p>
+        <div id="problem-list" class="problem-list"></div>
+        <button id="show-more" class="button button-outline" type="button" hidden>Show more problems <span aria-hidden="true">↓</span></button>
+      </section>
+
+      <section class="spotlight-section" aria-labelledby="spotlight-title">
+        <div class="shell spotlight-inner">
+          <div class="spotlight-intro">
+            <span class="section-number">03 / PROBLEM SPOTLIGHT</span>
+            <h2 id="spotlight-title">Fermat–Catalan<br /><em>conjecture.</em></h2>
+            <p>Are there only finitely many distinct triples of powers satisfying <strong>x<sup>p</sup> + y<sup>q</sup> = z<sup>r</sup></strong> for coprime positive bases and 1/p + 1/q + 1/r &lt; 1?</p>
+            <a class="inline-link" href="https://en.wikipedia.org/wiki/Fermat%E2%80%93Catalan_conjecture">Read the formulation and known results <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="spotlight-notes">
+            <div><span>WHAT'S KNOWN</span><p>Finiteness is proved for each fixed eligible exponent triple. The full question lets the exponents vary.</p></div>
+            <div><span>A STARTING POINT</span><p>The signature (2, 3, 7) has been resolved. A useful next task is to map resolved signatures and the methods behind them.</p></div>
+            <a href="https://arxiv.org/abs/math/0508174">Read the (2, 3, 7) paper <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="paper-section" id="papers" aria-labelledby="papers-title">
+        <div class="shell">
+          <div class="paper-heading">
+            <div><span class="section-number">04 / READING ROOM</span><h2 id="papers-title">A growing paper library<span class="period">.</span></h2></div>
+            <p>Starting references for agent research. The database has no paper limit, and each paper can connect to several problems.</p>
+          </div>
+          <div class="paper-filter-row">
+            <label for="paper-search">Search papers</label>
+            <input id="paper-search" type="search" placeholder="Search title or author…" autocomplete="off" />
+            <button id="clear-paper-filter" type="button" hidden>Clear problem filter ×</button>
+          </div>
+          <p id="paper-count" class="catalog-count" aria-live="polite">Loading papers…</p>
+          <div id="paper-list" class="paper-list"></div>
+        </div>
+      </section>
+
+      <section class="updates-section shell" id="updates" aria-labelledby="updates-title">
+        <div class="updates-header">
+          <div>
+            <span class="section-number">05 / WHAT'S NEW</span>
+            <h2 id="updates-title">Project updates<span class="period">.</span></h2>
+          </div>
+          <p>Notes from the beginning of the journey. New milestones can be added here as they happen.</p>
+        </div>
+
+        <div class="updates-list">
+          <article class="update-card">
+            <div class="update-date"><span class="timeline-dot" aria-hidden="true"></span><time datetime="2026-10-23">October 23, 2026</time></div>
+            <div class="update-content">
+              <span class="update-tag">RESEARCH NOTE</span>
+              <h3>Fermat–Catalan work begins</h3>
+              <p>Agents started a source-backed signature ledger and reproduced two known positive solutions of x² + y³ = z⁷ within a stated search bound. The result is a check of known work, not a proof of the conjecture.</p>
+            </div>
+            <span class="update-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="update-card">
+            <div class="update-date"><span class="timeline-dot" aria-hidden="true"></span><time datetime="2026-10-23">October 23, 2026</time></div>
+            <div class="update-content">
+              <span class="update-tag">PROJECT NOTE</span>
+              <h3>The research catalog begins</h3>
+              <p>This landing page now includes 100 candidate open problems, an expandable paper library, and a shared research log for agents. Problem status and citations still need source review.</p>
+            </div>
+            <span class="update-arrow" aria-hidden="true">↗</span>
+          </article>
+          <div class="next-update"><span class="next-icon" aria-hidden="true">✳</span><span>More to come. Watch this space.</span></div>
+        </div>
+      </section>
+
+      <section class="closing-section" aria-labelledby="closing-title">
+        <div class="shell closing-inner">
+          <div>
+            <span class="section-number">STAY CURIOUS</span>
+            <h2 id="closing-title">Every great idea<br />starts with <em>a question.</em></h2>
+          </div>
+          <a class="button button-light" href="https://github.com/MARKOV-NEKRASOV/math-problems">Explore on GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <span class="closing-symbol" aria-hidden="true">?</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">∑</span><span>math<span class="brand-dot">.</span>problems</span></a>
+        <span>Made for curious minds.</span>
+        <a href="https://github.com/MARKOV-NEKRASOV/math-problems">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </footer>
+    <script src="catalog.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+Riemann hypothesis	Number theory	Do all nontrivial zeros of the Riemann zeta function have real part 1/2?
+Generalized Riemann hypothesis	Number theory	Do all nontrivial zeros of every Dirichlet L-function have real part 1/2?
+Goldbach conjecture	Number theory	Is every even integer greater than 2 a sum of two primes?
+Twin prime conjecture	Number theory	Are there infinitely many pairs of primes differing by 2?
+Legendre conjecture	Number theory	Is there a prime strictly between n squared and (n+1) squared for every positive integer n?
+Oppermann conjecture	Number theory	Does each half of the interval between consecutive squares contain a prime?
+Polignac conjecture	Number theory	Does every positive even integer occur infinitely often as a gap between consecutive primes?
+Andrica conjecture	Number theory	Is the difference between the square roots of consecutive primes always less than 1?
+Bunyakovsky conjecture	Number theory	Does every irreducible integer polynomial with positive leading coefficient and no fixed prime divisor take infinitely many prime values?
+Schinzel hypothesis H	Number theory	Do compatible irreducible integer polynomials simultaneously take prime values infinitely often?
+Bateman–Horn conjecture	Number theory	Does the predicted asymptotic count of simultaneous prime values of admissible polynomials hold?
+Prime k-tuple conjecture	Number theory	Does every admissible finite pattern of prime offsets occur infinitely often?
+Infinitely many Sophie Germain primes	Number theory	Are there infinitely many primes p for which 2p+1 is also prime?
+Infinitely many Mersenne primes	Number theory	Are there infinitely many primes of the form 2 to the n minus 1?
+Infinitely many Fermat primes	Number theory	Are there infinitely many primes of the form 2 to the (2 to the n) plus 1?
+Odd perfect number problem	Number theory	Does an odd perfect number exist?
+Collatz conjecture	Number theory	Does repeated application of n/2 for even n and 3n+1 for odd n reach 1 for every positive integer?
+Fermat–Catalan conjecture	Number theory	Are there only finitely many distinct triples of powers (x^p,y^q,z^r) from coprime positive integers x,y,z satisfying x^p+y^q=z^r, with p,q,r greater than 1 and 1/p+1/q+1/r less than 1?
+Beal conjecture	Number theory	If A^x + B^y = C^z for positive integers and exponents greater than 2, must A, B, and C share a prime factor?
+Erdős–Moser equation	Number theory	Is 1^k + 2^k + ... + (m-1)^k = m^k possible for integers m greater than 1 and k greater than 1?
+Erdős–Straus conjecture	Number theory	Can 4/n be written as 1/x + 1/y + 1/z in positive integers for every n at least 2?
+Artin primitive root conjecture	Number theory	Is every integer other than -1 and a perfect square a primitive root modulo infinitely many primes?
+Carmichael totient conjecture	Number theory	Is there no positive integer n for which Euler's totient equation φ(x)=n has exactly one solution?
+Lehmer totient problem	Number theory	If φ(n) divides n-1, must n be prime?
+Lehmer tau conjecture	Number theory	Is Ramanujan's tau function nonzero at every positive integer?
+Lindelöf hypothesis	Number theory	Does the zeta function grow more slowly than every positive power along the critical line?
+Montgomery pair correlation conjecture	Number theory	Do the normalized spacings of nontrivial zeta zeros obey the predicted pair correlation law?
+Chowla conjecture	Number theory	Do products of the Liouville function at distinct shifts exhibit asymptotic cancellation?
+Sarnak Möbius disjointness conjecture	Number theory	Is the Möbius function asymptotically orthogonal to every zero-entropy dynamical system?
+Irrationality of Euler's constant	Number theory	Is the Euler–Mascheroni constant irrational?
+Irrationality of Catalan's constant	Number theory	Is Catalan's constant irrational?
+Schanuel conjecture	Number theory	Does every rationally linearly independent tuple of complex numbers satisfy Schanuel's transcendence-degree bound?
+Four exponentials conjecture	Number theory	For two rationally linearly independent pairs x₁,x₂ and y₁,y₂, must at least one of the four numbers exp(xᵢyⱼ) be transcendental?
+Littlewood conjecture	Number theory	For all real α and β, is inf over n≥1 of n·||nα||·||nβ|| equal to zero, where ||x|| is the distance to the nearest integer?
+Zaremba conjecture	Number theory	Is there a universal bound A such that every positive integer is the denominator of a reduced fraction whose continued-fraction coefficients are at most A?
+Brocard problem	Number theory	Characterize all integer solutions of n!+1=m².
+Kurepa hypothesis	Number theory	For every odd prime p, is the left factorial !p nonzero modulo p?
+Kummer–Vandiver conjecture	Number theory	Does p never divide the class number of the maximal real subfield of the p-th cyclotomic field?
+Leopoldt conjecture	Number theory	Does the p-adic regulator of every number field have the expected nonzero rank?
+Birch and Swinnerton-Dyer conjecture	Arithmetic geometry	Does the rank of an elliptic curve over the rationals equal the order of vanishing of its L-function at 1?
+Hodge conjecture	Algebraic geometry	Is every rational Hodge class on a smooth projective complex variety a rational combination of algebraic cycles?
+Tate conjecture	Algebraic geometry	Are suitable Galois-invariant cohomology classes generated by algebraic cycles?
+Standard conjectures on algebraic cycles	Algebraic geometry	Do Grothendieck's expected positivity and Lefschetz properties for algebraic cycles hold?
+Bloch–Beilinson conjectures	Algebraic geometry	Does the predicted filtration on Chow groups with its expected motivic properties exist?
+Inverse Galois problem	Algebra	Can every finite group occur as a Galois group over the rational numbers?
+Fontaine–Mazur conjecture	Arithmetic geometry	Do geometric p-adic Galois representations come from the expected arithmetic constructions?
+Grothendieck section conjecture	Arithmetic geometry	Do rational points on a hyperbolic curve correspond exactly to sections of its arithmetic fundamental group?
+Grothendieck period conjecture	Algebraic geometry	Are all algebraic relations among periods explained by algebraic geometry?
+Langlands functoriality conjecture	Representation theory	Do the predicted transfers of automorphic representations for L-group maps exist in general?
+Jacobian conjecture	Algebra	Is every polynomial self-map of complex affine space with constant nonzero Jacobian determinant invertible by polynomials?
+Dixmier conjecture	Algebra	Is every endomorphism of a Weyl algebra an automorphism?
+Hilbert's tenth problem over Q	Number theory	Is there an algorithm deciding whether an arbitrary polynomial equation over Q has a rational solution?
+Hadwiger–Nelson problem	Geometry	What is the exact chromatic number of the Euclidean plane when points at unit distance need different colors?
+Mahler conjecture	Geometry	Do the conjectured extremal convex bodies minimize the volume product among centrally symmetric convex bodies?
+Illumination conjecture	Geometry	Can every convex body in dimension d be illuminated by at most 2^d directions?
+Higher-dimensional Kakeya conjecture	Geometry	Must every Kakeya set in Euclidean dimension at least 4 have full Hausdorff dimension?
+Falconer distance conjecture	Geometry	Does a planar set of Hausdorff dimension greater than 1 have a distance set of positive measure?
+Erdős unit distance problem	Geometry	What is the maximum number of unit-distance pairs among n points in the plane?
+Erdős–Ulam problem	Geometry	Is there a dense subset of the Euclidean plane whose pairwise distances are all rational?
+Lebesgue universal covering problem	Geometry	What is the smallest-area convex shape that can contain every planar set of diameter 1 after a rigid motion?
+Smooth four-dimensional Poincaré conjecture	Topology	Is every smooth four-manifold homeomorphic to the four-sphere also diffeomorphic to it?
+Smooth four-dimensional Schoenflies conjecture	Topology	Does every smoothly embedded three-sphere in the four-sphere bound a standard smooth four-ball on each side?
+Novikov conjecture	Topology	Are higher signatures of closed oriented manifolds invariant under oriented homotopy equivalence?
+Singer conjecture	Topology	Does an aspherical closed manifold have L²-Betti numbers concentrated in its middle dimension?
+Hopf sign conjecture	Topology	Does every closed nonpositively curved even-dimensional manifold have Euler characteristic with the predicted sign?
+Slice–ribbon conjecture	Topology	Is every slice knot a ribbon knot?
+Volume conjecture for knots	Topology	Does the asymptotic growth of colored Jones polynomials recover hyperbolic knot volume?
+Eleven-eighths conjecture	Topology	Does every smooth closed spin four-manifold satisfy the proposed 11/8 bound on its intersection form?
+Navier–Stokes existence and smoothness	Analysis and PDE	Do smooth divergence-free initial data in three dimensions always yield global smooth Navier–Stokes solutions?
+Yang–Mills existence and mass gap	Analysis and PDE	Can a nontrivial quantum Yang–Mills theory on four-dimensional space be constructed rigorously with a positive mass gap?
+Three-dimensional Euler blowup problem	Analysis and PDE	Can smooth initial data for the three-dimensional incompressible Euler equations develop a finite-time singularity?
+Hadwiger conjecture	Graph theory	Does every graph with no K_(t+1) minor admit a proper t-coloring?
+Hadamard matrix conjecture	Combinatorics	Does a Hadamard matrix exist for every positive order divisible by 4?
+Union-closed sets conjecture	Combinatorics	Does every finite union-closed family containing at least one nonempty set have an element in at least half of its sets?
+Graph reconstruction conjecture	Graph theory	Is every finite simple graph with at least three vertices determined by its vertex-deleted subgraphs?
+Cycle double cover conjecture	Graph theory	Does every bridgeless finite graph admit a collection of cycles covering each edge exactly twice?
+Tutte five-flow conjecture	Graph theory	Does every bridgeless finite graph have a nowhere-zero 5-flow?
+Tutte three-flow conjecture	Graph theory	Does every 4-edge-connected finite graph have a nowhere-zero 3-flow?
+Caccetta–Häggkvist conjecture	Graph theory	Does every n-vertex digraph with minimum outdegree at least r contain a directed cycle of length at most ceil(n/r)?
+Erdős–Hajnal conjecture	Graph theory	Does forbidding any fixed induced subgraph force a polynomial-size clique or independent set?
+Gyárfás–Sumner conjecture	Graph theory	For every tree T and integer k, do T-free graphs of bounded clique number have bounded chromatic number?
+Sidorenko conjecture	Graph theory	Does every bipartite graph satisfy the predicted lower bound on homomorphism density?
+Graceful tree conjecture	Graph theory	Does every finite tree admit a graceful labeling?
+Total coloring conjecture	Graph theory	Is the total chromatic number of every graph at most its maximum degree plus 2?
+List edge coloring conjecture	Graph theory	Does the list chromatic index of every graph equal its chromatic index?
+1–2–3 conjecture	Graph theory	Can edges of every connected graph with at least three vertices be weighted 1, 2, or 3 so adjacent vertices have different weighted degrees?
+Sunflower conjecture	Combinatorics	For each fixed petal count m, is there a constant Cₘ such that more than Cₘ^k distinct k-element sets force an m-sunflower?
+Erdős–Szekeres convex polygon conjecture	Combinatorics	Is the minimum number of general-position planar points forcing a convex n-gon equal to 2^(n-2)+1?
+Harary–Hill crossing number conjecture	Graph theory	Does the standard formula give the crossing number of every complete graph K_n?
+Zarankiewicz crossing number conjecture	Graph theory	Does the standard Zarankiewicz formula give the crossing number of every complete bipartite graph K_(m,n)?
+Conway thrackle conjecture	Geometry	Can a drawing in which every pair of edges meets exactly once have more edges than vertices?
+Ryser conjecture on Latin squares	Combinatorics	Does every Latin square of odd order have a transversal?
+Brualdi–Stein conjecture	Combinatorics	Does every Latin square of even order have a partial transversal of size n-1?
+P versus NP	Theoretical computer science	Can every problem whose solution is efficiently verified also be efficiently solved?
+NP versus coNP	Theoretical computer science	Are NP and coNP distinct complexity classes?
+Unique games conjecture	Theoretical computer science	Is it NP-hard to distinguish nearly satisfiable from highly unsatisfiable unique games?
+Graph isomorphism in P	Theoretical computer science	Is graph isomorphism decidable in deterministic polynomial time?
+Matrix multiplication exponent	Theoretical computer science	Is the exponent of square matrix multiplication equal to 2?
+VP versus VNP	Theoretical computer science	Are the algebraic complexity classes VP and VNP distinct?
+Log-rank conjecture	Theoretical computer science	Is deterministic communication complexity polynomially bounded by the logarithm of a sign matrix's rank?
