@@ -2,7 +2,7 @@
 
 The conjecture asks whether there are finitely many **distinct triples of powered values** satisfying (x^p+y^q=z^r), where the positive bases are coprime and (1/p+1/q+1/r<1). Varying an exponent on a base of 1 can repeat the same triple, so counting exponent tuples gives the wrong statement. See the [problem overview](https://en.wikipedia.org/wiki/Fermat%E2%80%93Catalan_conjecture).
 
-The latest [integrated full-proof attempt](integrated-full-proof-attempt.md) combines the project's reductions with primary-source family theorems. It proves that the only remaining infinite exponent class is the **all-prime hyperbolic signatures**, but it does **not prove the conjecture**. Earlier work remains in the [previous full-scope attempt](full-proof-attempt-v3.md) and [optimized reduction](optimized-full-attempt.md).
+The latest [full-proof attempt on prime signatures](prime-signature-full-attempt.md) starts from the [integrated reduction](integrated-full-proof-attempt.md). It sharpens the obstruction for a hypothetical infinite family and proves restricted fixed-output-support finiteness, but **does not prove the conjecture**. The remaining global obligation is uniform finiteness across all-prime hyperbolic signatures.
 
 [Darmon–Granville](https://doi.org/10.1112/blms/27.6.513) established finiteness for each fixed eligible exponent triple. The full conjecture lets the exponents vary. This is the central gap between a solved fixed signature and a solution to the full problem.
 
@@ -97,6 +97,10 @@ Four agents pursued the two remaining infinite signature classes and independent
 ## Integrated reduction to prime signatures
 
 The [new reduction](reduction-to-prime-signatures.md) and [independent review](review-reduction-to-prime-signatures.md) check every orientation of `(2,4,ℓ)`. Bennett–Skinner excludes the signed square and fourth-power output orientations for prime `ℓ≥7`. Ellenberg excludes the prime-power output orientation for `ℓ≥211`; Darmon–Granville makes the finitely many smaller fixed signatures finite. Together with the 19 fixed composite signatures, this leaves only all-prime hyperbolic signatures as a uniform obligation. The [integrated attempt](integrated-full-proof-attempt.md) applies the prior cyclotomic, radical, and elliptic findings to that class and identifies the remaining gap. The paper library now has 31 records, including source-checked Bennett–Skinner and Ellenberg theorem statements. No full proof or Lean formalization followed.
+
+## Prime-signature proof attempt
+
+Four agents pursued the remaining all-prime signatures. The [synthesis and reviews](prime-signature-full-attempt.md) prove that an infinite family would satisfy `rad(ABC)<C^(5/6+o(1))` and `h(j)≥(36/5−o(1))log N`; neither contradicts a known unconditional upper bound. A new [fixed-output-support theorem](fixed-output-support.md) gives finiteness when two input exponents and the output prime set are fixed, even with a varying output exponent. Published exclusions narrow `(3,3,t)` to large prime residue classes, while a 2026 preprint on `(r,r,p)` requires coefficient `C>2`. The paper library now holds 33 records, with the two source statements and reading limits recorded. Full Fermat–Catalan finiteness remains unproved; Lean formalization remains deferred.
 
 ## Collaborative next steps
 

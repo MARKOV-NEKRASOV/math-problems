@@ -1,0 +1,9 @@
+# Independent review of the varying `(2,3,p)` attempt
+
+**Verdict:** The modular reduction, fixed-output-support lemma, and stated source limitations are valid. They do not prove uniform finiteness for `(2,3,p)` or Fermat–Catalan.
+
+For `E:Y²=X³+3bX−2a`, direct invariant formulas give `Δ=−2⁶3³(a²+b³)`, `c₄=−2⁴3²b`, and `j=1728b³/c^p` when `a²+b³=c^p`. For positive bases, `0<j<1728`. The cited Freitas–Naskręcki–Stoll Lemma 2.3 supplies one of seven fixed comparison curves after a small quadratic twist when the mod-`p` representation is irreducible; Proposition 2.4 supplies irreducibility for nontrivial primitive solutions and prime `p≥11`. A mod-`p` isomorphism does not imply the Frey curve has the comparison curve's conductor. Its primes dividing `c` can disappear from a lowered residual level while remaining bad primes of the original curve.
+
+The [fixed-output-support lemma](review-prime-237-support.md) was checked independently through Siegel's theorem and primitivity. A Frey–Mazur-style uniform isogeny principle would force output prime support to lie in a fixed set and then invoke that lemma, but this principle is explicitly hypothetical. A separate [modular closing argument](prime-modular-attempt.md) reaches the same conditional boundary through the reduced denominator of `j`. Neither conditional step addresses all all-prime signatures.
+
+The paper claim from Freitas, arXiv:2609.32509v1, was checked against its abstract, introduction, and Theorem 1.1 as a **preprint theorem statement**. Its coefficient hypothesis is `C>2`, together with prime-factor conditions; substituting the coefficient-one Fermat–Catalan equation is outside the theorem. This source therefore cannot close the repeated-prime or `(2,3,p)` branches. Its full proof and any adaptation to `C=1` were not verified here.

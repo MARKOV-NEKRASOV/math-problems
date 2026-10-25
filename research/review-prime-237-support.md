@@ -1,0 +1,9 @@
+# Independent review of fixed-output-support finiteness for (2,3,p)
+
+**Verdict:** The lemma in `prime-237-attempt.md` is valid: for a fixed finite prime set `S`, only finitely many primitive positive powered triples `a²+b³=c^p` with prime `p≥7`, `c≥2`, and `supp(c)⊆S` occur. It is a restricted finiteness theorem, not a proof that the actual solutions have fixed output support.
+
+Let `C=c^p`. At each prime `q∈S`, divide `v_q(C)` by 6, writing `C=Dw⁶` with `D=∏_{q∈S}q^{e_q}`, `0≤e_q≤5`, and `w` supported on `S`. There are finitely many possible `D`. The substitutions `u=b/w²`, `v=a/w³` give `v²+u³=D` and produce rational `S`-integers because `w` is an `S`-unit. As `D>0`, this curve is nonsingular of genus one. Siegel's theorem gives finitely many `S`-integral pairs `(u,v)` for each `D`.
+
+Fix one such pair. For `q∈S`, write `t=v_q(w)`, `α=v_q(v)`, `β=v_q(u)`. Then `v_q(a)=α+3t` and `v_q(b)=β+2t` are nonnegative integers. If `t>0`, then `q|C` and `q|c`. Primitivity forces at least one of `v_q(a),v_q(b)` to equal zero. Since `α,β` are fixed, this bounds `t` (indeed positive `t` must satisfy `t=−α/3` or `t=−β/2`). Finitely many `q` yield finitely many `w`, then finitely many integer triples `(a,b,C)`. Since `c≥2`, a fixed `C` has only finitely many representations `C=c^p` with prime `p≥7`; in any event the target counts powered triples, so the conclusion is secure.
+
+The modular shortcut preceding the lemma is correctly identified as conditional. A mod-`p` isomorphism to one of finitely many comparison curves does not preserve the conductor of the original curve. A Frey–Mazur-style assertion would force an isogeny and hence fixed output support, allowing the lemma, but that assertion is not an established input here. Even a proof of this whole `(2,3,p)` family would leave other all-prime signatures. No full Fermat–Catalan proof follows.

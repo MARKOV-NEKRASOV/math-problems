@@ -1713,6 +1713,16 @@
       "extraction_status": "none"
     },
     {
+      "id": 33,
+      "title": "On Fermat-type equations of signature (r,r,p)",
+      "authors": "Nuno Freitas",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.32509",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "source_reviewed"
+    },
+    {
       "id": 12,
       "title": "The Primitive Generalized Fermat Equation x^3+y^5=z^7: A computer-assisted proof",
       "authors": "Peter Chocian",
@@ -1861,6 +1871,16 @@
       "identity_status": "source_checked",
       "reading_status": "PARTIALLY_READ",
       "extraction_status": "none"
+    },
+    {
+      "id": 32,
+      "title": "Sums of two cubes as twisted perfect powers, revisited",
+      "authors": "Michael A. Bennett; Carmen Bruni; Nuno Freitas",
+      "year": 2017,
+      "url": "https://arxiv.org/abs/1702.07827",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "source_reviewed"
     },
     {
       "id": 9,
@@ -2153,6 +2173,16 @@
       "problem_slug": "fermat-catalan-conjecture",
       "paper_id": 31,
       "relevance": "Orientation-specific varying-prime family theorem used in integrated full-proof attempt"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 32,
+      "relevance": "Varying-prime family theorem or adjacent preprint with explicit coefficient limitation"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 33,
+      "relevance": "Varying-prime family theorem or adjacent preprint with explicit coefficient limitation"
     },
     {
       "problem_slug": "goldbach-conjecture",
