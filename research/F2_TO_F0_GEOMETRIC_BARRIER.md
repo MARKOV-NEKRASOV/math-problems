@@ -1,6 +1,6 @@
 # RESULTADO ESTRUCTURAL F2→F0: BARRERA DE COMPLEJIDAD GEOMÉTRICA
 
-**Estado:** demostración elemental escrita; pendiente de revisión independiente y de auditoría bibliográfica de originalidad. **No prueba F0 ni Fermat–Catalan.**
+**Estado (25-10-2026):** demostración elemental [revisada independientemente](review-f2-f0-protocol.md). Conder–Young, [arXiv:2410.06571v1](https://arxiv.org/abs/2410.06571v1), registra que el grupo triangular con índices coprimos es perfecto; no se reclama originalidad de esa parte. La [extensión no galoisiana](f2-f0-geometry.md) también fue revisada, con hipótesis estrictas sobre los órdenes completos de monodromía. **No prueba F0 ni Fermat–Catalan.**
 
 ## Teorema G: recubrimientos galoisianos de tres puntos con índices coprimos
 
@@ -27,6 +27,8 @@ g(X)\ge1+\frac{m^3}{2}(1-3/m).
 Un intento que insista en codificar **exactamente** los tres índices como ramificación de una cubierta de Galois de tres puntos no puede utilizar curvas de género uniformemente acotado cuando m→∞.
 
 **Límite explícito:** no afecta a representaciones de Galois de rango fijo, motivos hipergeométricos, cubiertas no galoisianas o índices de ramificación que no coincidan con p,q,r; tampoco cubre exponentes con factores comunes. Es una herramienta para descartar diseños, no una contradicción diofántica.
+
+Para cubiertas no galoisianas, la [nota de geometría](f2-f0-geometry.md) prueba una barrera distinta de grado bajo órdenes completos coprimos; la fórmula de género anterior sigue siendo solo para la cubierta galoisiana. El motivo hipergeométrico citado en el programa tiene tipos locales `{q,∞,r}`, por lo que esta barrera de tres órdenes finitos no se le aplica directamente.
 
 ## Objetivo U: puente cuantitativo suficiente, NO demostrado
 

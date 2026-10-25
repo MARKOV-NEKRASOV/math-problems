@@ -22,12 +22,12 @@ The paper states these as height bounds; for rational integers the logarithmic h
 
 ## Parameters for fixed-gap Fermat–Catalan
 
-Fix `P,Q≥2`, `ε∈{+1,−1}`, and `D∈Z\{0}`. Write `m^P+ε n^Q=k^W>0` with `m−n=D`, `k≥2`. Use `T=m`, so `F(T)=T^P+ε(T−D)^Q`; the independent squarefreeness argument in the signed fixed-gap note applies. The degree is
+Fix `P,Q≥2`, `ε∈{+1,−1}`, and `D∈Z\{0}`. Write `m^P+ε n^Q=k^W>0` with `m−n=D`, `k≥2`, and require the Fermat–Catalan hyperbolicity condition `1/P+1/Q+1/W<1`. Use `T=m`, so `F(T)=T^P+ε(T−D)^Q`; the independent squarefreeness argument in the signed fixed-gap note applies. The degree is
 
 - `n_0=max(P,Q)` if `ε=+1` or `P≠Q`;
 - `n_0=P−1` if `ε=−1` and `P=Q`.
 
-The signed `P=Q=3` edge has `n_0=2`, which **is covered** by (1) and (2) for `W≥3`. Hyperbolicity forces `W>3`, so the degree-2, `W=2` case outside Theorem 2.2 is irrelevant to that Fermat–Catalan slice. The case `P=Q=2` is never hyperbolic.
+The signed `P=Q=3` edge has `n_0=2`, which **is covered** by (1) and (2) for `W≥3`. Hyperbolicity forces `W>3`, so the degree-2, `W=2` case outside Theorem 2.2 is irrelevant to that Fermat–Catalan slice. The signed `P=Q=2` case has `n_0=1` and is never hyperbolic; it must be excluded from (1)–(7). Indeed, `(n+1)²−n²=2n+1` can equal `3^W` for every `W` by taking `n=(3^W−1)/2`.
 
 For the displayed `F`, its coefficient height `H_D` can be computed exactly by expanding the polynomial. A safe explicit estimate is
 
@@ -37,7 +37,7 @@ One can instead parametrize with `T=n`, giving `F(T)=(T+D)^P+εT^Q` and the alte
 
 `H_D ≤ M_{P,Q,D}:=1+(1+|D|)^min(P,Q)`.                    (5)
 
-Substitute `n=n_0` and `H=M_{P,Q,D}` in (1)–(3). In particular every `W≥3` satisfies the completely explicit bound
+Substitute `n=n_0≥2` and `H=M_{P,Q,D}` in (1)–(3). In particular every hyperbolic `W≥3` satisfies the completely explicit bound
 
 `W ≤ (10n_0²)^(40n_0) [1+(1+|D|)^min(P,Q)]^(11n_0)`.     (6)
 

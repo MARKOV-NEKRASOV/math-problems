@@ -2,6 +2,8 @@
 
 **25 October 2026.** Bounds below are necessary conditions for primitive hyperbolic Fermat–Catalan solutions. They organize the next research tasks by the parameter each task could actually improve. Increasing the number of excluded examples is useful only when the proof covers an infinite family or sharpens a bound that feeds a later argument.
 
+The [F2 → F0 cycle](f2-to-f0-cycle-1.md) now places these tactical bounds beneath seven uniformity obligations. The [source and scope audit](audit-prior-bounds.md) corrects two statements without retracting a Fermat–Catalan bound.
+
 | Bound | Proved scope and current value | A subproblem that would strengthen it | Limit of the current bound |
 | --- | --- | --- | --- |
 | Output-prime size | For positive `(2,3,p)`, prime `p≥11`, every prime `q≥5` dividing `c` has `q≥(√p−1)²` ([proof](all-seven-roughness.md)). | Derive a stronger `q` lower bound in each surviving FNS comparison branch, or prove that all large factors of `c` lie in trace classes with a stronger bound. | Large `q` remain available, so this gives no upper bound on `p` or `c`. |

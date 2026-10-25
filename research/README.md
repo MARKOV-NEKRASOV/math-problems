@@ -7,7 +7,7 @@ All agents must follow [the unified mathematical specification](AGENT_F2_TO_F0_S
 
 The conjecture asks whether there are finitely many **distinct triples of powered values** satisfying (x^p+y^q=z^r), where the positive bases are coprime and (1/p+1/q+1/r<1). Varying an exponent on a base of 1 can repeat the same triple, so counting exponent tuples gives the wrong statement. See the [problem overview](https://en.wikipedia.org/wiki/Fermat%E2%80%93Catalan_conjecture).
 
-The latest [bounds and priorities](bounds-and-priorities.md) quantify the [case-eliminating generalizations](purposeful-generalizations.md): an effective fixed-gap exponent bound, a measured finite modular selector sieve, and sharper repeated-prime size gaps. These are direct restrictions on infinite subfamilies, but **do not prove the conjecture**. The remaining global obligation is uniform finiteness across all-prime hyperbolic signatures.
+The latest [F2 → F0 cycle report](f2-to-f0-cycle-1.md) follows the updated [agent protocol](AGENT_F2_TO_F0_SPEC.md). It audits which fixed-exponent techniques survive when more exponents grow, records a new sufficient error-budget lemma and a field-dependence barrier for a rank-two construction, and keeps all seven infinite escape profiles explicit. The earlier [bounds and priorities](bounds-and-priorities.md) remain useful tactical restrictions, but **do not prove the conjecture**.
 
 [Darmon–Granville](https://doi.org/10.1112/blms/27.6.513) established finiteness for each fixed eligible exponent triple. The full conjecture lets the exponents vary. This is the central gap between a solved fixed signature and a solution to the full problem.
 
@@ -120,6 +120,10 @@ The [new synthesis](purposeful-generalizations.md) records three proved construc
 ## Bound-guided subproblems
 
 The [quantitative board](bounds-and-priorities.md) and [proof-obligation audit](bound-proof-obligations.md) distinguish lower bounds from the upper bounds that would create a contradiction. The [effective signed fixed-gap bound](effective-fixed-gap-bounds.md), using Bérczes–Evertse–Győry Theorem 2.3, gives an explicit exponent cutoff depending on fixed `P,Q,D`; it cannot hold uniformly when `D` moves. The [modular selector metrics](modular-selector-bounds.md) extend the finite compatibility graph to 42 excluded divisibility pairs for prime exponent `p≥103`; their 6.7062% density is for ordinary coprime base pairs, not for conjecture solutions. The [congruence-corrected repeated-cube bounds](congruence-corrected-size-gaps.md) force roots at least 46,520 or 6,890 in the two positive branches after the published `t>10⁹` restriction. All three quantify progress while leaving the full moving-parameter problem open.
+
+## F2 → F0 protocol cycle
+
+The [cycle report](f2-to-f0-cycle-1.md) records four roles: geometry, inequalities, permanent literature discovery, and adversarial review. It audits the seven F2/F1/F0 escape profiles, the proposed sufficient upper bounds, and the growth of the chosen hypergeometric motive's field. A [prior-bound audit](audit-prior-bounds.md) corrected the effective fixed-gap theorem's scope for signed squares and a transcription of an external source constant; the Fermat–Catalan restricted bounds survive. New [nonzero-trace](nonzero-trace-sieve.md), [gap-valuation](valuation-gap-bound.md), and [cube-congruence](mod-eight-cube-gaps.md) lemmas eliminate further case families, but remain tactical F2 restrictions. No uniform F1/F0 upper inequality was proved, and Lean formalization remains deferred.
 
 ## Collaborative next steps
 

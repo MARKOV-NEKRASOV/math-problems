@@ -28,8 +28,7 @@ Combining it with `2^(1−p)≤V/U^(p−1)<1` yields
 
 Since `v≤H−(p−1)`, we obtain `H>p−1` and
 
-`t ≤ log(2^(p−1)p^p) / [-log(1−(p−1)/H)]
-`  < [H/(p−1)] log(2^(p−1)p^p)`.                         (2)
+`t ≤ log(2^(p−1)p^p) / [-log(1−(p−1)/H)] < [H/(p−1)] log(2^(p−1)p^p)`.  (2)
 
 This is a new ramified size gap for each fixed `p,u`; it does not bound `u`.
 
