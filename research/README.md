@@ -2,7 +2,7 @@
 
 The conjecture asks whether there are finitely many **distinct triples of powered values** satisfying (x^p+y^q=z^r), where the positive bases are coprime and (1/p+1/q+1/r<1). Varying an exponent on a base of 1 can repeat the same triple, so counting exponent tuples gives the wrong statement. See the [problem overview](https://en.wikipedia.org/wiki/Fermat%E2%80%93Catalan_conjecture).
 
-The latest [attempt at the full conjecture](full-conjecture-attempt.md) combines four independently reviewed routes. It establishes partial reductions but **does not prove the conjecture**.
+The latest [optimized attempt at the full conjecture](optimized-full-attempt.md) combines four reviewed routes. It narrows the remaining uniform problem to all-prime hyperbolic signatures and `(2,4,ℓ)` for prime `ℓ≥7`, but **does not prove the conjecture**. The [earlier full-scope attempt](full-conjecture-attempt.md) remains available.
 
 [Darmon–Granville](https://doi.org/10.1112/blms/27.6.513) established finiteness for each fixed eligible exponent triple. The full conjecture lets the exponents vary. This is the central gap between a solved fixed signature and a solution to the full problem.
 
@@ -85,6 +85,10 @@ Four agents checked recent papers and preprints through 23 October 2026 (Argenti
 - A 2025 [coefficient-one `(13,13,n)` paper](recent-families.md) gives an unconditional exclusion under `13|z` for all `n≥2`, while its `n=7` classification assumes GRH. Other recent family results require coefficients, divisibility conditions, or a large-image conjecture.
 
 The paper library now has 29 records. Source-checked metadata, reading status, and proposed extracted claims are kept separate. No source in this targeted check establishes the full Fermat–Catalan conjecture.
+
+## Optimized full-conjecture pass
+
+Four agents tested new global strategies and reviewed the deductions. The [synthesis](optimized-full-attempt.md) links the detailed arguments and reviews. The strongest new reduction classifies all irreducible exponent signatures: 19 fixed composite-containing cases can be set aside by fixed-signature finiteness, leaving the infinite all-prime cases and `(2,4,ℓ)` for prime `ℓ≥7`. A contradiction argument shows an infinite solution family would give unbounded violations of the conjectural abc inequality for `ε=1/42`; unconditional height estimates and a universal elliptic curve do not rule it out. The full conjecture remains open, and Lean formalization remains deferred.
 
 ## Collaborative next steps
 
