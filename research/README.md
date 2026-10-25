@@ -1,5 +1,10 @@
 # Fermat–Catalan research notebook
 
+## Mandatory F2 → F0 agent protocol
+
+All agents must follow [the unified mathematical specification](AGENT_F2_TO_F0_SPEC.md), conduct [continuous literature searches](LITERATURE_WATCH_F2_F0.md), and inspect [the proved three-point-cover complexity barrier](F2_TO_F0_GEOMETRIC_BARRIER.md). The project's goal remains unconditional finiteness across ALL seven variable-exponent branches. Sources and partial improvements must be audited for actual uniformity; no full solution has been obtained.
+
+
 The conjecture asks whether there are finitely many **distinct triples of powered values** satisfying (x^p+y^q=z^r), where the positive bases are coprime and (1/p+1/q+1/r<1). Varying an exponent on a base of 1 can repeat the same triple, so counting exponent tuples gives the wrong statement. See the [problem overview](https://en.wikipedia.org/wiki/Fermat%E2%80%93Catalan_conjecture).
 
 The latest [bounds and priorities](bounds-and-priorities.md) quantify the [case-eliminating generalizations](purposeful-generalizations.md): an effective fixed-gap exponent bound, a measured finite modular selector sieve, and sharper repeated-prime size gaps. These are direct restrictions on infinite subfamilies, but **do not prove the conjecture**. The remaining global obligation is uniform finiteness across all-prime hyperbolic signatures.
