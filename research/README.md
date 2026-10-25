@@ -7,7 +7,7 @@ All agents must follow [the unified mathematical specification](AGENT_F2_TO_F0_S
 
 The conjecture asks whether there are finitely many **distinct triples of powered values** satisfying (x^p+y^q=z^r), where the positive bases are coprime and (1/p+1/q+1/r<1). Varying an exponent on a base of 1 can repeat the same triple, so counting exponent tuples gives the wrong statement. See the [problem overview](https://en.wikipedia.org/wiki/Fermat%E2%80%93Catalan_conjecture).
 
-The latest [F2 → F0 cycle report](f2-to-f0-cycle-1.md) follows the updated [agent protocol](AGENT_F2_TO_F0_SPEC.md). It audits which fixed-exponent techniques survive when more exponents grow, records a new sufficient error-budget lemma and a field-dependence barrier for a rank-two construction, and keeps all seven infinite escape profiles explicit. The earlier [bounds and priorities](bounds-and-priorities.md) remain useful tactical restrictions, but **do not prove the conjecture**.
+The latest [branch-proof attempt](branch-proof-attempt-13.md) tests `(2,3,p)`, `(2,r,p)`, and `(p,4,4)` with four research roles. It derives a restricted irreducibility lemma, records its adversarially discovered semistability condition, and leaves every infinite escape profile open. The preceding [F2 → F0 cycle report](f2-to-f0-cycle-1.md) audits uniformity and field dependence. The earlier [bounds and priorities](bounds-and-priorities.md) remain useful tactical restrictions, but **do not prove the conjecture**.
 
 [Darmon–Granville](https://doi.org/10.1112/blms/27.6.513) established finiteness for each fixed eligible exponent triple. The full conjecture lets the exponents vary. This is the central gap between a solved fixed signature and a solution to the full problem.
 
