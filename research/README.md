@@ -2,7 +2,7 @@
 
 The conjecture asks whether there are finitely many **distinct triples of powered values** satisfying (x^p+y^q=z^r), where the positive bases are coprime and (1/p+1/q+1/r<1). Varying an exponent on a base of 1 can repeat the same triple, so counting exponent tuples gives the wrong statement. See the [problem overview](https://en.wikipedia.org/wiki/Fermat%E2%80%93Catalan_conjecture).
 
-The latest [continued full-proof attempt](continued-prime-proof-attempt.md) starts from the [integrated reduction](integrated-full-proof-attempt.md). It tracks exponent escape profiles, a stronger local modular bound, primitive divisors, and recent non-split Cartan work, but **does not prove the conjecture**. The remaining global obligation is uniform finiteness across all-prime hyperbolic signatures.
+The latest [bounds and priorities](bounds-and-priorities.md) quantify the [case-eliminating generalizations](purposeful-generalizations.md): an effective fixed-gap exponent bound, a measured finite modular selector sieve, and sharper repeated-prime size gaps. These are direct restrictions on infinite subfamilies, but **do not prove the conjecture**. The remaining global obligation is uniform finiteness across all-prime hyperbolic signatures.
 
 [Darmon–Granville](https://doi.org/10.1112/blms/27.6.513) established finiteness for each fixed eligible exponent triple. The full conjecture lets the exponents vary. This is the central gap between a solved fixed signature and a solution to the full problem.
 
@@ -107,6 +107,14 @@ Four agents pursued the remaining all-prime signatures. The [synthesis and revie
 The [25 October synthesis](continued-prime-proof-attempt.md) links the four branch attempts, their independent reviews, and four additional routes. An infinite counterexample family would have one, two, or three diverging coordinate exponents, with increasingly severe radical deficits. A signed Siegel argument forces the variable base's prime support to escape whenever the other two exponents are fixed. In the positive `(2,3,p)` family, a reviewed seven-curve local argument forces each output prime `q≥5` to satisfy `q≥(√p−1)²`. Primitive divisors and optimized radical constants add necessary conditions in other branches. None gives a uniform finiteness theorem. The 2026 non-split Cartan preprint checked here treats level 13 and leaves uniform large-level rational points as a question. No full proof or Lean formalization followed.
 
 The [focused lemma ledger](lemma-subproblem-ledger.md) records smaller targets and four constructed results: a simultaneous-factor exclusion for a fixed smallest sum, a finite output-prime sieve, a fixed input-gap finiteness theorem with moving output support, and an explicit counterexample to height-free finite-trace rigidity. These sharpen the questions the next agents should attack without treating a subfamily result as a full proof.
+
+## Case-eliminating generalizations
+
+The [new synthesis](purposeful-generalizations.md) records three proved constructions with direct consequences. A signed fixed-gap theorem covers every placement of the variable exponent when the other two exponents and their base gap are fixed. A finite compatibility graph built from seven comparison curves rules out 12 input-prime divisibility families in positive `(2,3,p)` for prime `p≥59`, including the simpler `5|b` with `7|a` exclusion valid for `p≥11`. A repeated-prime valuation profile rules out odd signed bases congruent modulo 4. Independent reviews checked the modular and parity deductions. These eliminate proper infinite families; none supplies the uniform all-prime finiteness required for the conjecture.
+
+## Bound-guided subproblems
+
+The [quantitative board](bounds-and-priorities.md) and [proof-obligation audit](bound-proof-obligations.md) distinguish lower bounds from the upper bounds that would create a contradiction. The [effective signed fixed-gap bound](effective-fixed-gap-bounds.md), using Bérczes–Evertse–Győry Theorem 2.3, gives an explicit exponent cutoff depending on fixed `P,Q,D`; it cannot hold uniformly when `D` moves. The [modular selector metrics](modular-selector-bounds.md) extend the finite compatibility graph to 42 excluded divisibility pairs for prime exponent `p≥103`; their 6.7062% density is for ordinary coprime base pairs, not for conjecture solutions. The [congruence-corrected repeated-cube bounds](congruence-corrected-size-gaps.md) force roots at least 46,520 or 6,890 in the two positive branches after the published `t>10⁹` restriction. All three quantify progress while leaving the full moving-parameter problem open.
 
 ## Collaborative next steps
 

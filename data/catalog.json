@@ -1933,6 +1933,16 @@
       "extraction_status": "none"
     },
     {
+      "id": 36,
+      "title": "Effective results for hyper- and superelliptic equations over number fields",
+      "authors": "Attila Bérczes; Jan-Hendrik Evertse; Kálmán Györy",
+      "year": 2013,
+      "url": "https://arxiv.org/abs/1301.7168",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "source_reviewed"
+    },
+    {
       "id": 19,
       "title": "The Generalised Fermat Equation x^2 + y^3 = z^15",
       "authors": "Samir Siksek; Michael Stoll",
@@ -2213,6 +2223,11 @@
       "problem_slug": "fermat-catalan-conjecture",
       "paper_id": 35,
       "relevance": "Restates Schinzel–Tijdeman exponent boundedness for polynomial perfect powers used in a restricted fixed-gap lemma; abstract only read."
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 36,
+      "relevance": "Explicit Schinzel–Tijdeman exponent and height bounds for the signed fixed-gap polynomial slice."
     },
     {
       "problem_slug": "goldbach-conjecture",
