@@ -2,7 +2,7 @@
 
 The conjecture asks whether there are finitely many **distinct triples of powered values** satisfying (x^p+y^q=z^r), where the positive bases are coprime and (1/p+1/q+1/r<1). Varying an exponent on a base of 1 can repeat the same triple, so counting exponent tuples gives the wrong statement. See the [problem overview](https://en.wikipedia.org/wiki/Fermat%E2%80%93Catalan_conjecture).
 
-The latest [full-proof attempt on prime signatures](prime-signature-full-attempt.md) starts from the [integrated reduction](integrated-full-proof-attempt.md). It sharpens the obstruction for a hypothetical infinite family and proves restricted fixed-output-support finiteness, but **does not prove the conjecture**. The remaining global obligation is uniform finiteness across all-prime hyperbolic signatures.
+The latest [continued full-proof attempt](continued-prime-proof-attempt.md) starts from the [integrated reduction](integrated-full-proof-attempt.md). It tracks exponent escape profiles, a stronger local modular bound, primitive divisors, and recent non-split Cartan work, but **does not prove the conjecture**. The remaining global obligation is uniform finiteness across all-prime hyperbolic signatures.
 
 [Darmon–Granville](https://doi.org/10.1112/blms/27.6.513) established finiteness for each fixed eligible exponent triple. The full conjecture lets the exponents vary. This is the central gap between a solved fixed signature and a solution to the full problem.
 
@@ -101,6 +101,12 @@ The [new reduction](reduction-to-prime-signatures.md) and [independent review](r
 ## Prime-signature proof attempt
 
 Four agents pursued the remaining all-prime signatures. The [synthesis and reviews](prime-signature-full-attempt.md) prove that an infinite family would satisfy `rad(ABC)<C^(5/6+o(1))` and `h(j)≥(36/5−o(1))log N`; neither contradicts a known unconditional upper bound. A new [fixed-output-support theorem](fixed-output-support.md) gives finiteness when two input exponents and the output prime set are fixed, even with a varying output exponent. Published exclusions narrow `(3,3,t)` to large prime residue classes, while a 2026 preprint on `(r,r,p)` requires coefficient `C>2`. The paper library now holds 33 records, with the two source statements and reading limits recorded. Full Fermat–Catalan finiteness remains unproved; Lean formalization remains deferred.
+
+## Continued all-prime proof attempt
+
+The [25 October synthesis](continued-prime-proof-attempt.md) links the four branch attempts, their independent reviews, and four additional routes. An infinite counterexample family would have one, two, or three diverging coordinate exponents, with increasingly severe radical deficits. A signed Siegel argument forces the variable base's prime support to escape whenever the other two exponents are fixed. In the positive `(2,3,p)` family, a reviewed seven-curve local argument forces each output prime `q≥5` to satisfy `q≥(√p−1)²`. Primitive divisors and optimized radical constants add necessary conditions in other branches. None gives a uniform finiteness theorem. The 2026 non-split Cartan preprint checked here treats level 13 and leaves uniform large-level rational points as a question. No full proof or Lean formalization followed.
+
+The [focused lemma ledger](lemma-subproblem-ledger.md) records smaller targets and four constructed results: a simultaneous-factor exclusion for a fixed smallest sum, a finite output-prime sieve, a fixed input-gap finiteness theorem with moving output support, and an explicit counterexample to height-free finite-trace rigidity. These sharpen the questions the next agents should attack without treating a subfamily result as a full proof.
 
 ## Collaborative next steps
 

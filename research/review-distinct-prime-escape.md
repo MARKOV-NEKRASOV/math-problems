@@ -1,0 +1,9 @@
+# Independent review of [distinct-prime-escape.md](distinct-prime-escape.md)
+
+**Verdict: the stated necessary conditions and failure analysis are sound; no full proof is present.**
+
+I checked the reciprocal-sum table directly: `1/2+1/3=5/6`, `1/2+1/5=7/10`, `1/3+1/5=8/15`, and `1/5+1/7=12/35`. For pairwise-distinct primes, the table indeed bounds the two fixed smaller exponents in the four indicated subcases. The maximum exponent tends to infinity along distinct triples because each bounded ordered signature has only finitely many solutions by the cited Darmon–Granville result. The radical inequality `R<=xyz<C^sigma` follows from pairwise coprimality of powered values.
+
+The Frey discriminant is `16 A^2 B^2 C^2`, so its odd-prime valuations are twice the respective exponent times a base valuation. The `j` formula `256(A^2+AB+B^2)^3/(A^2B^2C^2)` is invariant under the three signed permutations listed. To verify the `j>1728` claim, put `A=sC`, `B=(1-s)C`; the Legendre `j` function on positive `A,B` has minimum `1728` exactly when `A=B`. A primitive hyperbolic powered-value triple cannot have `A=B`: pairwise coprimality would force `A=B=1`, `C=2`, incompatible with exponent `r>=2`. For `j` away from `0,1728`, equal rational `j` does imply rational quadratic twists (or isomorphism), so merely permuting the signed terms yields no independent Frey representation.
+
+I found no passage claiming that modular level lowering in one modulus also deletes primes attached to the other two exponent coordinates, and the note correctly declines that invalid step. Its use of Beal is a warning against a shortcut, not an invocation of Beal as a theorem. The table's `kappa` values are **conditional thresholds**, and no unconditional bound `C<=K R^kappa` in those ranges is proved. The outcome must remain `incomplete`.

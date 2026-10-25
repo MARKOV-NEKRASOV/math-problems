@@ -1703,6 +1703,16 @@
   ],
   "papers": [
     {
+      "id": 34,
+      "title": "Equationless quadratic Chabauty for non-split Cartan modular curves",
+      "authors": "Sachi Hashimoto; Guido Maria Lido; Davide Lombardo; Nicolas Mascot; Pierre Parent",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.10919",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "source_reviewed"
+    },
+    {
       "id": 28,
       "title": "Monodromy and Frobenius Splitting Sieves for the Generalized Fermat Equation x^5+y^3=z^7: An Optimized Small-Prime Local Reduction",
       "authors": "Zeraoulia Rafik",
@@ -1819,8 +1829,8 @@
       "year": 2025,
       "url": "https://arxiv.org/abs/2509.18275",
       "identity_status": "source_checked",
-      "reading_status": "ABSTRACT_READ",
-      "extraction_status": "none"
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "questioned"
     },
     {
       "id": 29,
@@ -1901,6 +1911,16 @@
       "identity_status": "source_checked",
       "reading_status": "ABSTRACT_READ",
       "extraction_status": "none"
+    },
+    {
+      "id": 35,
+      "title": "The Erdős-Selfridge and the Schinzel-Tijdeman theorems hold in PA^-",
+      "authors": "Victor Pambuccian",
+      "year": 2015,
+      "url": "https://arxiv.org/abs/1410.8441",
+      "identity_status": "source_checked",
+      "reading_status": "ABSTRACT_READ",
+      "extraction_status": "proposed"
     },
     {
       "id": 5,
@@ -2183,6 +2203,16 @@
       "problem_slug": "fermat-catalan-conjecture",
       "paper_id": 33,
       "relevance": "Varying-prime family theorem or adjacent preprint with explicit coefficient limitation"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 34,
+      "relevance": "Recent method for rational points on non-split Cartan modular curves; level 13 only is resolved, so it does not close the varying-p Fermat-Catalan branch."
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 35,
+      "relevance": "Restates Schinzel–Tijdeman exponent boundedness for polynomial perfect powers used in a restricted fixed-gap lemma; abstract only read."
     },
     {
       "problem_slug": "goldbach-conjecture",
