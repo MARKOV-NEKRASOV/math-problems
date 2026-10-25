@@ -2,7 +2,7 @@
 
 The conjecture asks whether there are finitely many **distinct triples of powered values** satisfying (x^p+y^q=z^r), where the positive bases are coprime and (1/p+1/q+1/r<1). Varying an exponent on a base of 1 can repeat the same triple, so counting exponent tuples gives the wrong statement. See the [problem overview](https://en.wikipedia.org/wiki/Fermat%E2%80%93Catalan_conjecture).
 
-The latest [optimized attempt at the full conjecture](optimized-full-attempt.md) combines four reviewed routes. It narrows the remaining uniform problem to all-prime hyperbolic signatures and `(2,4,ℓ)` for prime `ℓ≥7`, but **does not prove the conjecture**. The [earlier full-scope attempt](full-conjecture-attempt.md) remains available.
+The latest [integrated full-proof attempt](integrated-full-proof-attempt.md) combines the project's reductions with primary-source family theorems. It proves that the only remaining infinite exponent class is the **all-prime hyperbolic signatures**, but it does **not prove the conjecture**. Earlier work remains in the [previous full-scope attempt](full-proof-attempt-v3.md) and [optimized reduction](optimized-full-attempt.md).
 
 [Darmon–Granville](https://doi.org/10.1112/blms/27.6.513) established finiteness for each fixed eligible exponent triple. The full conjecture lets the exponents vary. This is the central gap between a solved fixed signature and a solution to the full problem.
 
@@ -89,6 +89,14 @@ The paper library now has 29 records. Source-checked metadata, reading status, a
 ## Optimized full-conjecture pass
 
 Four agents tested new global strategies and reviewed the deductions. The [synthesis](optimized-full-attempt.md) links the detailed arguments and reviews. The strongest new reduction classifies all irreducible exponent signatures: 19 fixed composite-containing cases can be set aside by fixed-signature finiteness, leaving the infinite all-prime cases and `(2,4,ℓ)` for prime `ℓ≥7`. A contradiction argument shows an infinite solution family would give unbounded violations of the conjectural abc inequality for `ε=1/42`; unconditional height estimates and a universal elliptic curve do not rule it out. The full conjecture remains open, and Lean formalization remains deferred.
+
+## Further full-proof attempt
+
+Four agents pursued the two remaining infinite signature classes and independent global contradictions. The [full argument and reviews](full-proof-attempt-v3.md) record a cyclotomic cofactor condition for repeated prime exponents, an exact Gaussian/Lucas condition for `(2,4,ℓ)`, and the uniform estimate `h(j)=6log C+O(1)` for the universal Frey curve. These results impose constraints on a hypothetical infinite solution family, but none supplies an unconditional finiteness theorem. The conjecture remains unproved; Lean formalization remains deferred.
+
+## Integrated reduction to prime signatures
+
+The [new reduction](reduction-to-prime-signatures.md) and [independent review](review-reduction-to-prime-signatures.md) check every orientation of `(2,4,ℓ)`. Bennett–Skinner excludes the signed square and fourth-power output orientations for prime `ℓ≥7`. Ellenberg excludes the prime-power output orientation for `ℓ≥211`; Darmon–Granville makes the finitely many smaller fixed signatures finite. Together with the 19 fixed composite signatures, this leaves only all-prime hyperbolic signatures as a uniform obligation. The [integrated attempt](integrated-full-proof-attempt.md) applies the prior cyclotomic, radical, and elliptic findings to that class and identifies the remaining gap. The paper library now has 31 records, including source-checked Bennett–Skinner and Ellenberg theorem statements. No full proof or Lean formalization followed.
 
 ## Collaborative next steps
 

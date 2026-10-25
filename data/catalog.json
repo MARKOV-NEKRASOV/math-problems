@@ -1933,6 +1933,26 @@
       "extraction_status": "proposed"
     },
     {
+      "id": 31,
+      "title": "Galois representations attached to Q-curves and the generalized Fermat equation A^4+B^2=C^p",
+      "authors": "Jordan S. Ellenberg",
+      "year": 2004,
+      "url": "https://arxiv.org/abs/math/0311497",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "source_reviewed"
+    },
+    {
+      "id": 30,
+      "title": "Ternary Diophantine Equations via Galois Representations and Modular Forms",
+      "authors": "Michael A. Bennett; Chris M. Skinner",
+      "year": 2004,
+      "url": "https://doi.org/10.4153/CJM-2004-002-2",
+      "identity_status": "source_checked",
+      "reading_status": "PARTIALLY_READ",
+      "extraction_status": "source_reviewed"
+    },
+    {
       "id": 13,
       "title": "On the abc conjecture, II",
       "authors": "C. L. Stewart; Kunrui Yu",
@@ -2123,6 +2143,16 @@
       "problem_slug": "fermat-catalan-conjecture",
       "paper_id": 29,
       "relevance": "Source retrieved from arXiv"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 30,
+      "relevance": "Orientation-specific varying-prime family theorem used in integrated full-proof attempt"
+    },
+    {
+      "problem_slug": "fermat-catalan-conjecture",
+      "paper_id": 31,
+      "relevance": "Orientation-specific varying-prime family theorem used in integrated full-proof attempt"
     },
     {
       "problem_slug": "goldbach-conjecture",

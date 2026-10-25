@@ -1,0 +1,37 @@
+# Source-checked reduction of the remaining Fermat–Catalan signatures
+
+**Outcome: a stronger reduction, not a full proof.** Primary-source theorems of Bennett–Skinner and Ellenberg make the whole `(2,4,ℓ)` family finite as ℓ ranges over primes ≥7. The remaining global obligation is finiteness across all-prime hyperbolic signatures; some repeated-prime branches are already excluded or historically classified, but the pairwise-distinct branches persist.
+
+## Sources audited
+
+- M. A. Bennett and C. M. Skinner, *Ternary Diophantine Equations via Galois Representations and Modular Forms*, Canadian Journal of Mathematics 56 (2004), 23–54, DOI [10.4153/CJM-2004-002-2](https://doi.org/10.4153/CJM-2004-002-2). I downloaded the publisher PDF from Cambridge's Crossref-listed content URL (publisher PDF, checked locally) and inspected **Theorems 1.1 and 1.2, pp. 24–25**. Theorem 1.1 says that for `n≥4`, `u^n+v^n=Cw²` with `C=1` or `2` has no solution in nonzero pairwise coprime **signed integers**, except listed cases that do not occur for `C=1,2` and prime `n≥7`. Theorem 1.2 says that for prime `n≥7`, `u^n+2^αv^n=w²` has no solution in nonzero pairwise coprime signed integers with `uv≠±1` when `α≥2` (`C=1, α₀=2` in the theorem's notation). Its stated possible exceptions `n≤C` and `(C,α,n)=(11,3,13)` do not occur when `C=1`.
+- J. S. Ellenberg, *Galois representations attached to Q-curves and the generalized Fermat equation A⁴+B²=Cᵖ*, American Journal of Mathematics 126 (2004), 763–787, [arXiv:math/0311497v1](https://arxiv.org/abs/math/0311497). I inspected the arXiv PDF (arXiv PDF, checked locally), **Theorem 4.1**, stated in the introduction: if coprime integers `A,B,C` satisfy `A⁴+B²=Cᵖ` and `p≥211`, then `AB=0`. This excludes positive nonunit and unit bases alike in the exponent orientation with `p` on the right. The theorem applies at the boundary `p=211` (though 211 itself is prime).
+- [Poonen–Schaefer–Stoll, Table 1](https://arxiv.org/pdf/math/0508174v1) uses **parentheses** for the oriented rows `(2,4,ℓ)` (Ellenberg, large ℓ) and `(2,n,4)` (Bennett–Skinner), but **braces** for `{2,n,n}` and `{3,n,n}`, meaning all permutations. Therefore one must audit orientations before removing an unordered signature. The source review of the original Darmon–Merel theorem remains [in the project](source-darmon-merel.md).
+- Chen–Koutsianas, *Darmon's Program: A survey*, [arXiv:2507.15149v1](https://arxiv.org/pdf/2507.15149v1), **Theorem 11.5**, says that for repeated exponent `p∈{5,7,11,13}` and every `n≥2`, there is no nontrivial primitive signed-integer solution of `a^p+b^p=c^n` when `2|(a+b)` or `p|(a+b)`. Here nontrivial means `abc≠0` (survey §1).
+
+## Both orientations with exponent 2 or 4 on the right
+
+Let `ℓ≥7` be prime and suppose a primitive positive solution exists in either orientation
+
+`X²+Y^ℓ=Z⁴` or `X⁴+Y^ℓ=Z²`.
+
+Both fit `H²−K²=Y^ℓ` with `gcd(H,K)=1`: respectively `(H,K)=(Z²,X)` or `(H,K)=(Z,X²)`. Set `U=H−K>0`, `V=H+K>0`. Then `UV=Y^ℓ`, `gcd(U,V)|2`, and one of `H,K` is a square while the other may be an arbitrary integer.
+
+If `H,K` have opposite parity, `U,V` are odd and coprime, so `U=u^ℓ`, `V=v^ℓ`. For the first orientation, `U+V=2Z²`, giving `u^ℓ+v^ℓ=2Z²`. For the second, `V−U=2X²`, giving `v^ℓ+(-u)^ℓ=2X²` because ℓ is odd. Both contradict Bennett–Skinner Theorem 1.1 with `C=2`, since ℓ≥7 is prime and all three entries are nonzero pairwise coprime.
+
+If `H,K` are both odd, `U,V` are both even and `gcd(U,V)=2`. Write `U=2u`, `V=2v`, with `gcd(u,v)=1` and `u+v=H` odd. Thus exactly one of `u,v` is even. Since `Y^ℓ=4uv`, the odd factor is an ℓth power and the even factor is `2^(ℓ−2)` times an ℓth power. In the first orientation, `u+v=Z²` yields a signed equation `a^ℓ+2^(ℓ−2)b^ℓ=Z²`. In the second, `v−u=X²` yields, after choosing signs, `a^ℓ+2^(ℓ−2)b^ℓ=X²`. In both cases the bases on the left are nonzero signed integers and pairwise coprime with the square base. Bennett–Skinner Theorem 1.2 applies with `C=1`, `α=ℓ−2≥5`, unless the product of the two left bases is `±1`. In that exceptional unit-base case both magnitudes equal 1. The first orientation would require `Z²=2^(ℓ−2)+1`, impossible for ℓ−2≥5 because `(Z−1)(Z+1)=2^(ℓ−2)` forces `Z=3` and exponent 3. The second would require `X²=2^(ℓ−2)−1`, congruent to 7 modulo 8 and impossible. (The other sign gives a negative right side.) Hence neither orientation has a primitive positive solution for prime ℓ≥7.
+
+Finally, when the ℓth power is on the right, the equation is `X²+Y⁴=Z^ℓ` up to swapping left summands. Ellenberg Theorem 4.1 excludes this for `ℓ≥211`. For the finitely many primes `7≤ℓ<211`, Darmon–Granville fixed-signature finiteness gives a finite union of powered-value triples, even without classifying them. Therefore **the entire unordered `(2,4,ℓ)` family contributes only finitely many powered-value triples**. This improves the earlier reduction: full Fermat–Catalan is equivalent to finiteness across the union of all-prime hyperbolic signatures alone, since the 19 other composite-containing irreducible signatures are fixed and finite by Darmon–Granville.
+
+## Exact all-prime branches after safe eliminations
+
+Hyperbolicity excludes two exponent-2 entries. Fermat's Last Theorem excludes three equal odd primes. Bennett–Skinner Theorem 1.1 with `C=1` directly excludes `(p,p,2)` in all signed orientations for prime `p≥5`: an equation `a^p+b^p=c²` is forbidden, and a repeated exponent across the equality can be moved to the same side using a negative base because `p` is odd. Poonen–Schaefer–Stoll Table 1 also lists `{3,p,p}` as a determined family for prime `p≥5`, citing Darmon–Merel and other small-case work. I did not obtain the original Darmon–Merel paper or its global exceptional list, so I do not assert from that table alone a new explicit finite-union theorem for this branch.
+
+The remaining all-prime signatures, before using any further source-specific family classification, are:
+
+1. Exactly two equal odd primes: `(3,3,t)` with prime `t≥5`, and `(p,p,t)` with distinct primes `p,t≥5`. In addition, `(p,p,3)` for prime `p≥5` is a historically classified family in Poonen–Schaefer–Stoll Table 1; its exact global exceptional list was not independently audited here, so it is annotated separately rather than silently discarded.
+2. Three pairwise distinct primes: `(2,3,t)` with prime `t≥7`; `(2,p,q)` with primes `5≤p<q`; `(3,p,q)` with primes `5≤p<q`; and `(p,q,r)` with primes `5≤p<q<r`.
+
+For a repeated odd prime `p`, cyclotomic factorization of `a^p+b^p=c^t` gives `U=a+b`, `V=(a^p+b^p)/(a+b)`, `gcd(U,V)|p`. If `p∤U`, then `U=u^t`, `V=v^t`; if `p|U`, then LTE gives `V=pv^t` and `v_p(U)≡−1 (mod t)`. Theorem 11.5 removes the `2|U` and `p|U` classes when `p∈{5,7,11,13}`. Thus a surviving repeated-`p` solution for these four p has **odd** `U` with `p∤U`, and the cleaner conditions `U=u^t`, `V=v^t` follow. The same statement applies if the repeated p-powers straddle the equality: rewrite `c^p−a^p=b^t` as `c^p+(-a)^p=b^t`, so `U=c−a` and the signed theorem applies. It does not exclude the surviving cofactor-perfect-power equations.
+
+**Remaining proof gap:** no audited theorem controls all the moving prime pairs or triples in the list above, especially the pairwise-distinct branch `(2,3,t)` and all-prime signatures with minimum exponent at least 5. This source-backed reduction is not a complete proof, and no Lean formalization is warranted.

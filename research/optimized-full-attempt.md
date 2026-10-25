@@ -1,5 +1,7 @@
 # Optimized attempt at the full Fermat–Catalan conjecture
 
+**Subsequent progress:** A [primary-source-backed reduction](reduction-to-prime-signatures.md) now proves that the variable `(2,4,ℓ)` family contributes finitely many powered triples. Only the all-prime hyperbolic bucket remains as an infinite exponent class in this reduction.
+
 **Status: incomplete.** Four agents pursued a contradiction from an infinite solution family, a sharper exponent reduction, height and prime-support estimates, and a uniform elliptic-curve construction. The deductions have independent reviews. None proves finiteness of all distinct powered-value triples.
 
 Let `A=x^p`, `B=y^q`, `C=z^r=A+B`, where the positive bases are coprime, `p,q,r≥2`, and `1/p+1/q+1/r<1`. The conjecture asks for finitely many **distinct `(A,B,C)`**, as the exponents vary.

@@ -1,5 +1,7 @@
 # Fermat–Catalan: a sharper reduction of all exponent signatures
 
+**Subsequent progress:** [Bennett–Skinner and Ellenberg](reduction-to-prime-signatures.md) make the `(2,4,ℓ)` family finite across varying prime `ℓ`. The classification below remains valid; its earlier statement that this family is a remaining infinite obstruction has been superseded.
+
 **Result: a reduction, not a proof.** Every eligible powered-value triple has a representation whose unordered exponent signature is either (i) all prime, (ii) `(2,4,ℓ)` with prime `ℓ≥7`, or (iii) one of 19 fixed signatures below. These three classes still contain infinitely many all-prime signatures, so the full conjecture is not resolved.
 
 ## Target and allowable operation
