@@ -1,5 +1,7 @@
 # Bounds role: a concrete F2-QR attempt, 25 October 2026
 
+**Source update, 30 October 2026:** Ratcliffe–Grechuk, arXiv:2412.11933v2, p. 16, Theorem 3.6, states the Darmon–Merel exclusion of nontrivial primitive `U^n+V^n=2W^n` for `n≥3`. Taking `U=u²,V=v²,W=w` excludes the opposite-parity slice below. The original 1997 proof was inaccessible here; see the [cycle-14 source audit](branch-14-proof-attempt.md). The older discussion below records why the factorization alone did not close it. The both-odd slice remains open.
+
 I read AGENTS.md and all three mandatory F2→F0 documents. I targeted the nonunit, positive, primitive F2-QR subbranch `(p,4,4)` with odd varying `p≥3`, equation `x^p+y^4=z^4`, and the opposite-parity case `y,z` of opposite parity. This is hyperbolic. I sought an upper bound on `p` or `log z^4` incompatible with the radical bound. **No complete F2-QR proof resulted.**
 
 ## B13.1, exact factor reduction (PROVED; elementary)

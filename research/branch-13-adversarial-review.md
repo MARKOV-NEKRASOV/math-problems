@@ -1,5 +1,7 @@
 # Adversarial review: attempting to close F2-QR at (2,3,p)
 
+**Superseded finding (30 October 2026):** this review's assertion that Proposition 5.1 of arXiv:2605.02632v1 requires `p∤ab` was incorrect. The printed condition is `p∤2rAB(Aa²+Bb^r)`, which for coefficient-one `p∤c` does not involve input-base divisibility. See the [cycle-14 primary-source correction](branch-14-proof-attempt.md). The text below is retained as an audit history, not the current proof scope.
+
 ## Cross-review of the other roles
 
 The factorization B13.1 in [the bounds report](branch-13-factorization.md) is algebraically correct, including the converse parity and gcd claims. Its target equation `(u²)^p+(v²)^p=2w^p` belongs to the classical Darmon–Merel Fermat-variant family; the original theorem's exact scope was unavailable here, so the report does not claim a new unsolved family or a closure. The both-odd valuation B13.2 follows from `v₂(z²+y²)=1` and `min(v₂(z−y),v₂(z+y))=1`; it supplies a lower bound only.
